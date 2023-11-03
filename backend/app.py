@@ -1,10 +1,15 @@
+import os
+
 from flask import Flask
 from flask import Flask, request
-from backend.services import OpenAI
+
+from backend.openai import chat_stream
 from flask_cors import CORS
 from dotenv import load_dotenv
+import openai
 
 load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 app = Flask(__name__)
 
@@ -30,23 +35,9 @@ def handle_exception(e):
     return {"error": "Internal service error"}, 500
 
 
-open_ai = OpenAI()
-
-
-@app.post("/openai-chat")
-def openai_chat():
-    body = request.json
-    return open_ai.chat(body)
-
-
 @app.post("/openai-chat-stream")
 def openai_chat_stream():
     body = request.json
     print('hello')
-    return open_ai.chat_stream(body)
-
-
-@app.post("/openai-image")
-def openai_image():
-    files = request.files.getlist("files")
-    return open_ai.image_variation(files)
+    # return open_ai.chat_stream(body)
+    return chat_stream(body)
