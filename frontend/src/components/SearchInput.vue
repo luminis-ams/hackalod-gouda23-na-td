@@ -1,12 +1,24 @@
 <script setup>
-import { ref } from "vue";
+import {ref} from "vue";
+import axios from "axios";
 
 const query = ref("");
-const executeSearch = () => {
+const searchResults = ref([]);
+
+const executeSearch = async () => {
   console.log("executeSearch");
-  // Simulating a search operation
-  const results = ["Result 1", "Result 2"]; // This would typically come from an API call or similar.
-  emit('searched', results);
+
+// Method to call the backend with the search query
+  try {
+    const requestBody = {
+      search_for: query.value,
+    };
+    const response = await axios.post('http://localhost:5000/search_image', requestBody);
+    searchResults.value = response.data;
+    emit('searched', searchResults.value);
+  } catch (error) {
+    console.error('Search error:', error);
+  }
 };
 
 const emit = defineEmits();
@@ -14,7 +26,7 @@ const emit = defineEmits();
 
 <template>
   <div>
-    <input v-model="query" placeholder="Enter search term..." />
+    <input v-model="query" placeholder="Enter search term..."/>
     <button @click="executeSearch">Search</button>
   </div>
 </template>
