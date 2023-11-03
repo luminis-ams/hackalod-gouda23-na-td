@@ -4,7 +4,7 @@ from flask import Flask
 from flask import Flask, request
 
 from backend.openai import chat_stream
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from dotenv import load_dotenv
 import openai
 
@@ -19,6 +19,12 @@ cors = CORS(app)
 @app.route("/")
 def hello_world():
     return "<p>Hello, World!</p>"
+
+@app.after_request
+def after_request(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 
 
 # Sends response back to Deep Chat using the Response format:
@@ -36,6 +42,7 @@ def handle_exception(e):
 
 
 @app.post("/openai-chat-stream")
+@cross_origin(origins='*')
 def openai_chat_stream():
     body = request.json
     print('hello')
