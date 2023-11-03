@@ -10,5 +10,5 @@ poetry install
 
 Development:
 ```shell
-uvicorn app:app --reload
+FLASK_APP=app flask run
 ```

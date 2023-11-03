@@ -1,6 +1,7 @@
 <script setup>
 
 import Search from "@/components/Search.vue";
+import Chat from "@/components/Chat.vue";
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import Search from "@/components/Search.vue";
       </nav>
     </header>
     <main>
-      <Search />
+      <Search/>
+      <Chat/>
     </main>
     <footer>
       <ul>
