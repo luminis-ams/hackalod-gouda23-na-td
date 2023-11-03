@@ -6,10 +6,11 @@ authors = ["Egor Dmitriev <egor.dmitriev@luminis.eu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 langchain = {extras = ["llm"], version = "^0.0.329"}
 fastapi = "^0.104.1"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
+pandas = "^2.1.2"
 
 
 [build-system]
