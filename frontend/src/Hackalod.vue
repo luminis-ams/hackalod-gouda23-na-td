@@ -1,6 +1,19 @@
 <script setup>
 
 import Search from "@/components/Search.vue";
+import Timeline from "@/components/Timeline.vue";
+import { ref } from 'vue';
+
+const timelineMoments = ref([
+  { id: 1, time: '2021-01-01', text: 'Rotterdam', image: '/rotterdam.jpg', description: 'Rotterdam haven' },
+  { id: 2, time: '2024-02-14', text: 'Gouda', image: '/gouda.jpg', description: 'Gouda oude stadshuis' },
+  // ... more moments
+]);
+
+const handleMomentClicked = (moment) => {
+  console.log('Moment clicked:', moment.description);
+};
+
 import Chat from "@/components/Chat.vue";
 </script>
 
@@ -15,7 +28,8 @@ import Chat from "@/components/Chat.vue";
       </nav>
     </header>
     <main>
-      <Search/>
+      <Search />
+      <Timeline  :moments="timelineMoments" :start-date="'2020-01-01'" :end-date="'2025-01-01'" @moment-clicked="handleMomentClicked"  />
       <Chat/>
     </main>
     <footer>
