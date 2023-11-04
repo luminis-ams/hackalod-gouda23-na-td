@@ -72,7 +72,6 @@ def openai_chat_stream():
 @cross_origin(origins='*')
 def search_image():
     body = request.json
-    print(body)
 
     return search_for_images(body['search_for'])
 
@@ -106,3 +105,17 @@ def extract_images():
     cache.update(json.dumps(body['passage']), '', [Generation(text=json.dumps(result_images))])
 
     return {"images": result_images}
+
+@app.post("/search_person")
+@cross_origin(origins='*')
+def search_person():
+    body = request.json
+    person_name = body['person_name']
+
+    person = load_person_from_file(person_name)
+
+    for person_event in person['events']:
+        images = search_for_images(person_event["description"])
+        person_event["image"] = images[0]["imageOriginal"]
+
+    return person

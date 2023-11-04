@@ -1,47 +1,112 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import ActionBar from "@/components/ActionBar.vue";
+import InvisibleItem from "@/components/InvisibleItem.vue";
+import {ref} from "vue";
+import axios from "axios";
+import Timeline from "@/components/Timeline.vue";
+
+const activeItem = ref('')
+const activePerson = ref({})
+const activeAction = ref('')
+
+const activateContent = (item) => {
+  activeItem.value = item;
+  console.log("Toggling content:" + activeItem.value);
+  executeSearchPerson();
+}
+
+const executeSearchPerson = async () => {
+  console.log("executeSearch");
+
+  try {
+    const requestBody = {
+      person_name: activeItem.value,
+    };
+    const response = await axios.post('http://localhost:5000/search_person', requestBody);
+    activePerson.value = response.data;
+  } catch (error) {
+    console.error('Search error:', error);
+  }
+};
+
+const selectActiveItem = (active_item) => {
+  console.log("active action: " + active_item);
+  activeAction.value = active_item;
+}
+
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <div class="container">
+    <div class="invisible-bar">
+      <InvisibleItem @click="activateContent('one')">
+        <template #image>
+          <img src="/02_Naam1_ON.png" alt="Logo" :class="activeItem=='one' ? 'active':''"/>
+        </template>
+      </InvisibleItem>
+      <InvisibleItem @click="activateContent('two')">
+        <template #image>
+          <img src="/02_Naam2_ON.png" alt="Logo" :class="activeItem=='two' ? 'active':''"/>
+        </template>
+      </InvisibleItem>
+      <InvisibleItem @click="activateContent('three')">
+        <template #image>
+          <img src="/02_Naam3_ON.png" alt="Logo" :class="activeItem=='three' ? 'active':''"/>
+        </template>
+      </InvisibleItem>
+      <InvisibleItem @click="activateContent('four')">
+        <template #image>
+          <img src="/02_Naam4_ON.png" alt="Logo" :class="activeItem=='four' ? 'active':''"/>
+        </template>
+      </InvisibleItem>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <div class="vertical-bar">
+      <ActionBar :person="activePerson" @active-item="selectActiveItem"/>
+    </div>
+    <div class="main-content">
+      <Timeline :person="activePerson" :start-date="'1900-01-01'" :end-date="'1910-12-31'" v-if="activeAction=='my-events'"/>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+.container {
+  display: flex;
+  height: 100vh; /* Use full viewport height */
+  width: 100vw; /* Use full viewport width */
+  background-image: url('/03_Background_DARK.png'); /* Set a background image */
+  background-size: initial;
+  background-repeat: no-repeat;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.invisible-bar {
+  padding-top: 165px;
+  padding-left: 220px;
+  flex-basis: 300px; /* Set the width of the invisible bar */
+  cursor: pointer;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+.vertical-bar {
+  flex-basis: 100px; /* Set the width of the vertical bar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+.invisible-bar img {
+  height: 170px;
+  object-fit: contain;
+  opacity: 0;
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+.invisible-bar img.active {
+  opacity: 1;
+}
+
+
+.main-content {
+  flex-grow: 1; /* Use remaining space */
+  padding: 20px;
 }
 </style>

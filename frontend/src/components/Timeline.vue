@@ -5,8 +5,8 @@ import {eventBus} from "@/components/eventBus";
 
 
 const props = defineProps({
-  moments: {
-    type: Array,
+  person: {
+    type: Object,
     required: true,
   },
   startDate: String,
@@ -33,14 +33,14 @@ const getPosition = (time) => {
     <!-- Timeline -->
     <div class="timeline-line"></div>
     <!-- Timeline moments -->
-    <div v-for="(moment, index) in moments" :key="index" class="timeline-moment" @click="() => emitMoment(moment)" :style="{ left: getPosition(moment.time) + '%' }">
+    <div v-for="(moment, index) in person.events" :key="index" class="timeline-moment" @click="() => emitMoment(moment)" :style="{ left: getPosition(moment.event_date) + '%' }">
       <!-- Circle on the timeline -->
       <div class="timeline-circle"></div>
       <!-- Content for the moment -->
       <div class="content">
         <!-- Conditionally display image or text based on the moment's content -->
         <img v-if="moment.image" :src="moment.image" :alt="moment.description">
-        <span v-else>{{ moment.text }}</span>
+        <span v-else>{{ moment.description }}</span>
       </div>
     </div>
   </div>
