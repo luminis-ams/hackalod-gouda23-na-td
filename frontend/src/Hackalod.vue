@@ -2,7 +2,8 @@
 
 import Search from "@/components/Search.vue";
 import Timeline from "@/components/Timeline.vue";
-import { ref } from 'vue';
+import { eventBus } from './components/eventBus';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 const timelineMoments = ref([
   { id: 1, time: '2021-01-01', text: 'Rotterdam', image: '/rotterdam.jpg', description: 'Rotterdam haven' },
@@ -13,6 +14,14 @@ const timelineMoments = ref([
 const handleMomentClicked = (moment) => {
   console.log('Moment clicked:', moment.description);
 };
+
+onMounted(() => {
+  eventBus.on('moment-clicked', handleMomentClicked);
+});
+
+onUnmounted(() => {
+  eventBus.off('moment-clicked', handleMomentClicked);
+});
 
 import Chat from "@/components/Chat.vue";
 </script>
@@ -29,7 +38,7 @@ import Chat from "@/components/Chat.vue";
     </header>
     <main>
       <Search />
-      <Timeline  :moments="timelineMoments" :start-date="'2020-01-01'" :end-date="'2025-01-01'" @moment-clicked="handleMomentClicked"  />
+      <Timeline  :moments="timelineMoments" :start-date="'2020-01-01'" :end-date="'2025-01-01'"/>
       <Chat/>
     </main>
     <footer>

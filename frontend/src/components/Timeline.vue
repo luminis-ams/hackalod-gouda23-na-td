@@ -1,6 +1,7 @@
 <script setup>
 import { defineProps, defineEmits, ref, computed } from 'vue';
 import { differenceInCalendarDays, parseISO } from 'date-fns';
+import {eventBus} from "@/components/eventBus";
 
 
 const props = defineProps({
@@ -12,10 +13,9 @@ const props = defineProps({
   endDate: String,
 });
 
-const emit = defineEmits(['moment-clicked']);
 
 const emitMoment = (moment) => {
-  emit('moment-clicked', moment);
+  eventBus.emit('moment-clicked', moment);
 };
 
 const totalDays = computed(() => {

@@ -13,7 +13,6 @@ const props = defineProps({
 
 <template>
   <li :key="result"><img :src="result.imageOriginal" alt="Descriptive text for accessibility">{{ result.beschrijving }}</li>
-<!--  <li :key="result">{{ result }}</li>-->
 </template>
 
 <style scoped>
