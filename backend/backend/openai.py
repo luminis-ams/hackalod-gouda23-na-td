@@ -42,7 +42,7 @@ def openai_chat(body):
         messages=messages,
         stream=False,
         temperature=1.0,
-        max_tokens=350,
+        max_tokens=200,
     )
 
     content = response["choices"][0].get("message", {}).get("content")

@@ -1,7 +1,7 @@
 <template>
   <h1 style="color: #181818; font-size: 30px">Chat with {{fullName}}</h1>
   <div style="flex: 1">
-    <div style="width: 100%; flex-grow: 1; display: flex">
+    <div style="width: 100%; max-height: 600px; flex-grow: 1; display: flex">
 
       <div v-if="loading">
         <h2>Loading!</h2>

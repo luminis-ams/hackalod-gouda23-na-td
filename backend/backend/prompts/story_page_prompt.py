@@ -70,7 +70,7 @@ Appeal to pathos, and write in a tone of optimistic wonder.
 ## Structural Guidelines
 - Adhere to factual accuracy, and chronology
 - In each act, focus on two or three real-life crewmen that were part of the mission and the events they encountered.
-- Each act is at most three paragraphs with a hard limit on 200 words.
+- Each act is at most two paragraphs with a hard limit on 200 words.
 - If it suits the narrative, change which real-life crew (wo)men are the focus of the next act.
 
 ## Story
