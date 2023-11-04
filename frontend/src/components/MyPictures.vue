@@ -1,5 +1,5 @@
 <script setup>
-import {computed, onMounted, ref} from "vue";
+import {computed, onMounted, ref, watch} from "vue";
 import axios from "axios";
 
 const images = ref([]);
@@ -15,11 +15,11 @@ const fullName = computed(() => {
   return `${props.person.person.name_first} ${props.person.person.surname}`
 })
 
-const executeSearch = async () => {
+const executeSearch = async (full_name) => {
   try {
     console.log('Before the request ' + fullName);
     const requestBody = {
-      search_for: fullName.toString(),
+      search_for: full_name.toString(),
     };
     console.log('Before the request')
     const response = await axios.post('http://localhost:5000/search_image', requestBody);
@@ -31,7 +31,14 @@ const executeSearch = async () => {
 };
 
 onMounted(() => {
-  executeSearch()
+  executeSearch(fullName)
+})
+
+watch(() => props.person.person.surname + props.person.person.name_first, async (newQuestion, oldQuestion) => {
+  if (newQuestion !== oldQuestion) {
+    console.log('new question', newQuestion)
+    await executeSearch(`${props.person.person.name_first} ${props.person.person.surname}`)
+  }
 })
 
 </script>
