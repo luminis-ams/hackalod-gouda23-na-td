@@ -16,8 +16,6 @@
           :initialMessages="initialMessages"
           :request="{url: 'http://localhost:5000/chat'}"
           :stream="false"
-          :avatars="true"
-          :names="true"
       />
     </div>
   </div>
@@ -42,6 +40,10 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  person_name: {
+    type: String,
+    required: true,
+  },
 });
 
 
@@ -55,6 +57,10 @@ const initialMessages = ref([])
 
 const fullName = computed(() => {
   return `${props.person.person.name_first} ${props.person.person.surname}`
+})
+
+const avatar = computed(() => {
+  return props.person_name + '.png'
 })
 
 

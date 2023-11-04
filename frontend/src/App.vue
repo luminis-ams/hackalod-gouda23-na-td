@@ -68,7 +68,7 @@ const selectActiveItem = (active_item) => {
     </div>
     <div class="main-content">
       <Timeline :person="activePerson" :start-date="'1890-01-01'" :end-date="'1910-12-31'" v-if="activeAction=='my-events'"/>
-      <Chat  :person="activePerson" v-if="activeAction=='my-chat'"/>
+      <Chat  :person="activePerson" :person_name="activeItem" v-if="activeAction=='my-chat'"/>
       <ShowYourFace :person_name="activeItem" v-if="activeAction=='my-face'"/>
     </div>
   </div>
