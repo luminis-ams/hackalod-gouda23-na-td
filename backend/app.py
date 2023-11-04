@@ -1,5 +1,6 @@
 import json
 import os
+import threading
 
 import openai
 from dotenv import load_dotenv
@@ -11,11 +12,20 @@ from backend.constants import DATA_DIR
 from backend.openai import chat_stream, extract_phrases, cache
 from backend.openai import openai_chat
 from langchain.schema.output import Generation
-
+from elevenlabs import Voice, VoiceSettings, generate
+from elevenlabs import set_api_key
+from dotenv import load_dotenv
+from elevenlabs import play, stream
 from backend.prompts.extract_terms_prompt import EXTRACT_PROMPT_TEMPLATE
+
+
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+if os.getenv("ELEVENLABS_API_KEY"):
+    set_api_key(os.getenv("ELEVENLABS_API_KEY"))
+
 
 config = {
     "DEBUG": True,          # some Flask specific configs
@@ -59,7 +69,31 @@ def handle_exception(e):
 @cross_origin(origins='*')
 def chat():
     body = request.json
-    return openai_chat(body)
+    response =  openai_chat(body)
+
+    text = response['text']
+
+    if os.getenv("ELEVENLABS_API_KEY"):
+        def f():
+            audio_stream = generate(
+                text=text,
+                model="eleven_multilingual_v2",
+                voice=Voice(
+                    voice_id='pNInz6obpgDQGcFmaJgB',
+                    # settings=VoiceSettings(
+                    #     # stability=0.71,
+                    #     # similarity_boost=0.5,
+                    #     style=0.0, use_speaker_boost=True
+                    # )
+                )
+            )
+
+            play(audio_stream)
+
+        t1 = threading.Thread(target=f)
+        t1.start()
+
+    return response
 
 
 @app.post("/openai-chat-stream")
