@@ -65,7 +65,7 @@ const selectActiveItem = (active_item) => {
       <ActionBar :person="activePerson" @active-item="selectActiveItem"/>
     </div>
     <div class="main-content">
-      <Timeline :person="activePerson" :start-date="'1900-01-01'" :end-date="'1910-12-31'" v-if="activeAction=='my-events'"/>
+      <Timeline :person="activePerson" :start-date="'1890-01-01'" :end-date="'1910-12-31'" v-if="activeAction=='my-events'"/>
     </div>
   </div>
 </template>

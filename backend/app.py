@@ -1,3 +1,4 @@
+import json
 import os
 
 import openai
@@ -77,3 +78,11 @@ def search_person():
         person_event["image"] = images[0]["imageOriginal"]
 
     return person
+
+
+def load_person_from_file(person_name: str):
+    print(f"Loading person: {person_name}")
+    with open(f"../data/curated/{person_name}.json", 'r') as file:
+        data = file.read()
+
+    return json.loads(data)
