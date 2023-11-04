@@ -70,39 +70,7 @@ def search_person():
     body = request.json
     person_name = body['person_name']
 
-    person = {
-        "surname": "'t Hart",
-        "name_first": "56064",
-        "father": "Jan",
-        "mother": "Catharina van Bemmel",
-        "birth_place": "Leiderdorp /Z.H.",
-        "birth_data": "",
-        "place_of_residence": "Rotterdam",
-        "length": "1:667 Meter.",
-        "face": "rond",
-        "forehead": "gewoon",
-        "eyes": "grijs",
-        "nose": "gewoon",
-        "mouth": "klein",
-        "chin": "rond",
-        "hair": "blond",
-        "eyebrow": "id",
-        "features_particular": "ken aan den hals ken aan den hals",
-        "events": [
-            {"event_date": "1901-12-02", "description": "gegaan aan boord van het SS Prins Hendrik"},
-            {"event_date": "1902-12-01",
-             "description": "Gedebarkeerd te Batavia en geplaatst bij het 2:e Depot. Bat:on"},
-            {"event_date": "1903-05-05", "description": "Overgegaan bij het 5 Bat:on Inf:ie"},
-            {"event_date": "1905-07-04", "description": "strafdetachement (bewak: det:t) 5 Bat:en Int:ie"},
-            {"event_date": "1906-04-16",
-             "description": "faire tegen den vijand of in eene plaats welke dadelijk belegerd of bekend is"},
-            {"event_date": "1906-06-01", "description": "ter executie gelegd."},
-            {"event_date": "1907-05-18",
-             "description": "Van militaire gevangens ontslagen en geplaatst bij het 2:e Depot Bat:en Overgegaan bij het 5 Bat:en Inf:ie"},
-            {"event_date": "1908-07-10",
-             "description": "bracht, gerekend van en met den dag van inscheping herwaerts naar Nederland te worden opgezonden"}
-        ]
-    }
+    person = load_person_from_file(person_name)
 
     for person_event in person['events']:
         images = search_for_images(person_event["description"])
