@@ -49,11 +49,9 @@ const getPosition = (time) => {
 <style scoped>
 .timeline-container {
   position: relative;
-  margin: 2px;
-  margin-top: 85px;
+  margin: 105px 2px 2px 2px;
   height: 400px;
   background-color: #fff;
-  padding-top: 150px;
   flex: 1;
 }
 
@@ -71,6 +69,7 @@ const getPosition = (time) => {
 }
 
 .timeline-circle {
+  top: 152px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -81,7 +80,7 @@ const getPosition = (time) => {
 }
 
 .content {
-  margin-top: 60px;
+  margin-top: 180px;
   text-align: center;
 }
 

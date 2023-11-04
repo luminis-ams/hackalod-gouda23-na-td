@@ -5,6 +5,7 @@ import {ref} from "vue";
 import axios from "axios";
 import Timeline from "@/components/Timeline.vue";
 import Chat from "@/components/Chat.vue";
+import ShowYourFace from "@/components/ShowYourFace.vue";
 
 const activeItem = ref('')
 const activePerson = ref({})
@@ -68,6 +69,7 @@ const selectActiveItem = (active_item) => {
     <div class="main-content">
       <Timeline :person="activePerson" :start-date="'1890-01-01'" :end-date="'1910-12-31'" v-if="activeAction=='my-events'"/>
       <Chat  :person="activePerson" v-if="activeAction=='my-chat'"/>
+      <ShowYourFace :person_name="activeItem" v-if="activeAction=='my-face'"/>
     </div>
   </div>
 </template>
@@ -111,7 +113,7 @@ const selectActiveItem = (active_item) => {
 
 .main-content {
   flex-grow: 1; /* Use remaining space */
-  padding: 20px;
+  padding: 2px;
   display: flex;
   flex-direction: column;
 }
