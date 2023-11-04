@@ -1,37 +1,51 @@
 <template>
   <h1>Chat with GPT</h1>
-  <div style="width: 100%; height: 400px; display: flex">
+  <div style="display: flex; flex-direction: row">
+    <div style="flex: 1">
+      <div style="width: 100%; height: 400px; display: flex">
 
-    <div v-if="loading">
-      <h2>Loading!</h2>
+        <div v-if="loading">
+          <h2>Loading!</h2>
+        </div>
+
+        <deep-chat
+            v-if="!loading"
+            ref="chatRef"
+            :style="{ width: '100%', height: '100%'}"
+            :demo="false"
+            :textInput="{ placeholder: { text: 'Welcome to the demo!' } }"
+            :initialMessages="initialMessages"
+            :request="{url: 'http://localhost:5000/chat'}"
+            :stream="false"
+            :avatars="true"
+            :names="true"
+        />
+      </div>
     </div>
-
-    <deep-chat
-        v-if="!loading"
-        ref="chatRef"
-        :style="{ width: '100%', height: '100%'}"
-        :demo="false"
-        :textInput="{ placeholder: { text: 'Welcome to the demo!' } }"
-        :initialMessages="initialMessages"
-        :request="{url: 'http://localhost:5000/chat'}"
-        :stream="false"
-        :avatars="true"
-        :names="true"
-    />
-
-
+    <div style="flex: 1; display: flex" >
+      <div v-if="loadingExtra" style="flex: 1;">
+        <h2>Loading extra content. Be patient please!</h2>
+      </div>
+      <div v-else style="flex: 1; display: flex; flex-wrap: wrap">
+        <img v-for="image in images" :key="image" :src="image['imageOriginal']"
+             style=" object-fit: contain; flex: 1; max-width: 350px; max-height: 350px"/>
+      </div>
+    </div>
   </div>
+
 
 </template>
 
 <script setup>
 import "deep-chat";
 import {ref, onMounted, nextTick} from 'vue';
+import axios from "axios";
 
-
+const images = ref([])
 const messages = ref([])
 const chatRef = ref(null)
 const loading = ref(true);
+const loadingExtra = ref(false);
 const initialMessages = ref([])
 
 // {url: 'http://localhost:5000/openai-chat-stream'}
@@ -130,9 +144,22 @@ const fetchInitialMessage = async () => {
   ]
   loading.value = false;
 
+  extractRelevantImages(data.text)
+
   await nextTick(() => {
     hookOnChat()
   })
+}
+
+
+const extractRelevantImages = async (text) => {
+  loadingExtra.value = true;
+  // Call post to backend
+  const response = await axios.post('http://localhost:5000/extract_images', {passage: text});
+
+  images.value = response.data['images'];
+  loadingExtra.value = false;
+  console.log('Response from backend:', response.data);
 }
 
 const hookOnChat = () => {
@@ -158,6 +185,9 @@ const hookOnChat = () => {
     // responseDetails.textz = responseDetails.text
     // responseDetails.text = undefined
     console.log('Response ', responseDetails);
+
+    extractRelevantImages(responseDetails.text)
+
     return responseDetails;
   };
 
@@ -166,6 +196,7 @@ const hookOnChat = () => {
     console.log(response, 'onNewMessage');
   };
 }
+
 
 </script>
 

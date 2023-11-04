@@ -6,13 +6,15 @@ import openai
 
 from langchain.cache import SQLiteCache
 from langchain.schema.output import Generation
+
+from backend.prompts.extract_terms_prompt import EXTRACT_PROMPT_TEMPLATE
 from backend.story_logic import create_chat_body
 
 cache = SQLiteCache(database_path=".langchain.db")
 
+
 def chat_stream(body):
     messages = create_chat_body(body)
-
 
     def generate():
         for chunk in openai.ChatCompletion.create(
@@ -49,3 +51,26 @@ def openai_chat(body):
     return {"text": content}
 
 
+def extract_phrases(passage):
+    if content := cache.lookup(passage, ''):
+        return content[0].text.split('\n')
+
+    prompt = EXTRACT_PROMPT_TEMPLATE.format(passage=passage)
+    result = openai.ChatCompletion.create(
+        model='gpt-3.5-turbo',
+        messages=[
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        stream=False,
+        temperature=1.0,
+        max_tokens=200,
+    )
+    content = result["choices"][0].get("message", {}).get("content")
+
+    cache.update(passage, '', [Generation(text=content)])
+    phrases = content.split('\n')
+
+    return phrases

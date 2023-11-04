@@ -1,3 +1,4 @@
+import json
 import os
 
 import openai
@@ -6,15 +7,26 @@ from flask import Flask, request
 from flask_cors import CORS, cross_origin
 
 from backend.chains.search_images import search_for_images
-from backend.openai import chat_stream
+from backend.openai import chat_stream, extract_phrases, cache
 from backend.openai import openai_chat
+from langchain.schema.output import Generation
+
+from backend.prompts.extract_terms_prompt import EXTRACT_PROMPT_TEMPLATE
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+config = {
+    "DEBUG": True,          # some Flask specific configs
+    "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
+    "CACHE_DEFAULT_TIMEOUT": 300
+}
+
+
 app = Flask(__name__)
 
 cors = CORS(app)
+
 
 
 @app.route("/")
@@ -63,3 +75,34 @@ def search_image():
     print(body)
 
     return search_for_images(body['search_for'])
+
+
+@app.post("/extract_images")
+@cross_origin(origins='*')
+def extract_images():
+    body = request.json
+
+    if hit := cache.lookup(json.dumps(body['passage']), ''):
+        return {"images": json.loads(hit[0].text)}
+
+    passage = body['passage']
+    phrases = extract_phrases(passage)
+
+    images = []
+    for phrase in phrases:
+        images.extend(search_for_images(phrase, return_metadata=False))
+
+    images = sorted(images, key=lambda x: x.metadata['score'], reverse=True)
+    unique_images = []
+    seen = {}
+    for image in images:
+        if image.metadata['handleURI'] not in seen:
+            unique_images.append(image)
+            seen[image.metadata['handleURI']] = True
+
+    result_images = unique_images[:5]
+    result_images = [image.metadata for image in result_images]
+
+    cache.update(json.dumps(body['passage']), '', [Generation(text=json.dumps(result_images))])
+
+    return {"images": result_images}

@@ -58,5 +58,5 @@ def print_num_images():
 
 if __name__ == '__main__':
     load_dotenv()
-    # index_images(force_reindex=False)
+    index_images(force_reindex=True)
     print_num_images()
