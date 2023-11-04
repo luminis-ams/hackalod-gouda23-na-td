@@ -31,3 +31,17 @@ def chat_stream(body):
                 yield "data: {}\n\n".format(json.dumps({"text": content}))
 
     return Response(generate(), mimetype="text/event-stream")
+
+
+def openai_chat(body):
+    messages = create_chat_body(body)
+
+    response = openai.ChatCompletion.create(
+        model=os.getenv("OPENAI_MODEL"),
+        messages=messages,
+        stream=False,
+    )
+
+    content = response["choices"][0].get("message", {}).get("content")
+
+    return {"text": content}
