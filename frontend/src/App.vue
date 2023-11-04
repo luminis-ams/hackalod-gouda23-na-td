@@ -4,6 +4,7 @@ import InvisibleItem from "@/components/InvisibleItem.vue";
 import {ref} from "vue";
 import axios from "axios";
 import Timeline from "@/components/Timeline.vue";
+import Chat from "@/components/Chat.vue";
 
 const activeItem = ref('')
 const activePerson = ref({})
@@ -39,7 +40,7 @@ const selectActiveItem = (active_item) => {
 
 <template>
   <div class="container">
-    <div class="invisible-bar">
+    <div class="invisible-bar" >
       <InvisibleItem @click="activateContent('one')">
         <template #image>
           <img src="/02_Naam1_ON.png" alt="Logo" :class="activeItem=='one' ? 'active':''"/>
@@ -66,6 +67,7 @@ const selectActiveItem = (active_item) => {
     </div>
     <div class="main-content">
       <Timeline :person="activePerson" :start-date="'1890-01-01'" :end-date="'1910-12-31'" v-if="activeAction=='my-events'"/>
+      <Chat  :person="activePerson" v-if="activeAction=='my-chat'"/>
     </div>
   </div>
 </template>
@@ -85,11 +87,13 @@ const selectActiveItem = (active_item) => {
   padding-left: 220px;
   flex-basis: 300px; /* Set the width of the invisible bar */
   cursor: pointer;
+  display: block;
 }
 
 .vertical-bar {
   flex-basis: 100px; /* Set the width of the vertical bar */
-  display: flex;
+  //display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
 }
@@ -108,5 +112,7 @@ const selectActiveItem = (active_item) => {
 .main-content {
   flex-grow: 1; /* Use remaining space */
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 </style>

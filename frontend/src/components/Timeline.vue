@@ -54,6 +54,7 @@ const getPosition = (time) => {
   height: 400px;
   background-color: #fff;
   padding-top: 150px;
+  flex: 1;
 }
 
 .timeline-line {

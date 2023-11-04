@@ -7,6 +7,7 @@ from flask import Flask, request
 from flask_cors import CORS, cross_origin
 
 from backend.chains.search_images import search_for_images
+from backend.constants import DATA_DIR
 from backend.openai import chat_stream, extract_phrases, cache
 from backend.openai import openai_chat
 from langchain.schema.output import Generation
@@ -123,7 +124,8 @@ def search_person():
 
 def load_person_from_file(person_name: str):
     print(f"Loading person: {person_name}")
-    with open(f"../data/curated/{person_name}.json", 'r') as file:
+
+    with open(DATA_DIR / f"curated/{person_name}.json", 'r') as file:
         data = file.read()
 
     return json.loads(data)

@@ -1,11 +1,20 @@
+import json
 import os
 from pathlib import Path
 
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores.chroma import Chroma
+from langchain.schema.output import Generation
+
+
+from backend.openai import cache
 
 
 def search_for_images(search_for: str, return_metadata=True):
+    if return_metadata:
+        if hit := cache.lookup(search_for, ''):
+            return json.loads(hit[0].text)
+
     path = Path(__file__).parent.parent.parent.parent / 'data/chromadb'
     embedding_fn = OpenAIEmbeddings(
         openai_api_key=os.getenv('OPEN_AI_API_KEY'),
@@ -24,6 +33,8 @@ def search_for_images(search_for: str, return_metadata=True):
 
     print(results)
     if return_metadata:
-        return [doc.metadata for doc in documents]
+        ret = [doc.metadata for doc in documents]
+        cache.update(search_for, '', [Generation(text=json.dumps(ret))])
+        return ret
     else:
         return documents
