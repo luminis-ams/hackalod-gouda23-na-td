@@ -225,9 +225,15 @@ def pannekoek(data):
     for entity in output:
         if entity['entity'] in ['campaign_data', 'muster_data']:
             value = [entity['value']] if isinstance(entity['value'], str) else entity['value']
+            entity['value'] = [v for v in entity['value'] if v]
+            if len(entity['value']) == 0:
+                continue
             events.append(value)
         elif entity['entity'] in [ 'family_data']:
             value = [entity['value']] if isinstance(entity['value'], str) else entity['value']
+            entity['value'] = [v for v in entity['value'] if v]
+            if len(entity['value']) == 0:
+                continue
             people.append(value)
         elif entity['entity'] in ['index_military']:
             title = entity['value']
