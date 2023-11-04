@@ -1,12 +1,13 @@
 import os
 
-from flask import Flask
-from flask import Flask, request
-
-from backend.openai import chat_stream, openai_chat
-from flask_cors import CORS, cross_origin
-from dotenv import load_dotenv
 import openai
+from dotenv import load_dotenv
+from flask import Flask, request
+from flask_cors import CORS, cross_origin
+
+from backend.chains.search_images import search_for_images
+from backend.openai import chat_stream
+from backend.openai import openai_chat
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -53,3 +54,12 @@ def chat():
 def openai_chat_stream():
     body = request.json
     return chat_stream(body)
+
+
+@app.post("/search_image")
+@cross_origin(origins='*')
+def search_image():
+    body = request.json
+    print(body)
+
+    return search_for_images(body['search_for'])
