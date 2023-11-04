@@ -1,4 +1,6 @@
 import json
+from pathlib import Path
+
 import jinja2
 from collections import OrderedDict
 import requests
@@ -32,10 +34,6 @@ Name: {{ name_first }} {{ surname }}
 Do not include any text on the medallion. <lora:Cnl-XL-V1:0.5>
 """.strip()
 
-with open('../../data/nl_zh_ha_na-2_10_50-505_data_structured_2023-11-03_18-08-30.json', 'r') as f:
-    data = json.load(f, object_pairs_hook=OrderedDict)
-
-
 batch_size = 3
 payload = {
     "prompt": None,
@@ -48,9 +46,9 @@ payload = {
     "height": 1024,
 }
 
-def generate_image(input):
+def generate_image(input, key):
     prompt = env.from_string(BASE_PROMPT).render(**input)
-    with open(f'../../data/people/{key}.txt', 'w') as f:
+    with open(f'../../data/curated/{key}.txt', 'w') as f:
         f.write(prompt)
 
     payload_now = {
@@ -64,10 +62,19 @@ def generate_image(input):
     r = response.json()
     for i in range(batch_size):
         image = Image.open(io.BytesIO(base64.b64decode(r['images'][i])))
-        image.save(f'../../data/people/{key}_{i}.png')
+        image.save(f'../../data/curated/{key}_{i}.png')
 
 
 env = jinja2.Environment()
+
+
+data = {}
+for file in Path('/home/egordm/Projects/workshops/hackalod-gouda23-na-td/data/curated').glob('*.json'):
+    with open(file, 'r') as f:
+        print(f'Loading {file.stem}')
+        data[file.stem] = json.load(f, object_pairs_hook=OrderedDict)['person']
+        u = 0
+
 
 prompts = []
 for key, value in data.items():
@@ -81,7 +88,7 @@ for key, value in data.items():
         prev_value = v
 
 
-    generate_image(value)
+    generate_image(value, key)
 
 print(prompts[2])
 
