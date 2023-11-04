@@ -1,5 +1,10 @@
 <template>
-  <h1 style="color: #181818; font-size: 30px">Chat with {{fullName}}</h1>
+  <div style="display: flex; flex-direction: row">
+    <div style="flex-grow: 1"></div>
+    <h1 style="color: #181818; font-size: 30px; flex: 1">Chat with {{ fullName }}</h1>
+    <img :src="avatar" style="width: 80px; height: 80px;">
+    <div style="flex-grow: 1"></div>
+  </div>
   <div style="flex: 1">
     <div style="width: 100%; max-height: 600px; flex-grow: 1; display: flex">
 
