@@ -1,0 +1,3440 @@
+{
+  "creator": "Transkribus",
+  "created": "2023-10-03T17:32:36.673+02:00",
+  "last_change": "2023-10-31T08:49:44.121+01:00",
+  "measurement_unit": "pixel",
+  "primary_language": null,
+  "producer": "Transkribus",
+  "image": {
+    "image_filename": "nl_zh_ha_na-2_10_50-505_3.jpg",
+    "image_width": 8374,
+    "image_height": 5897,
+    "image_size": 8384,
+    "bbox_page_coordinates": [
+      138,
+      115,
+      8126,
+      5772
+    ],
+    "page_area": 43611070.5,
+    "page_contour_shape": "rectangular"
+  },
+  "regions": {
+    "0": {
+      "region_orientation": "0",
+      "region_type": "header",
+      "identifier": "tr_1",
+      "reading_order": "61",
+      "structure": "header",
+      "shape_class": "Parallelogram",
+      "coordinates_list": [
+        [
+          "4652",
+          "878"
+        ],
+        [
+          "7081",
+          "878"
+        ],
+        [
+          "7120",
+          "2707"
+        ],
+        [
+          "4691",
+          "2707"
+        ]
+      ],
+      "bbox_height": 1829,
+      "bbox_width": 2468,
+      "bbox_area": 4513972,
+      "bbox_area_relative": 0.10350518683094467,
+      "centroid": [
+        5886.0,
+        1792.5
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_1_tl_1",
+          "annotation": "readingOrder {index:0;}",
+          "text": "STAMBOEK",
+          "polygon_coordinates": [
+            [
+              5318,
+              1077
+            ],
+            [
+              5407,
+              1089
+            ],
+            [
+              5497,
+              1089
+            ],
+            [
+              5586,
+              1089
+            ],
+            [
+              5676,
+              1089
+            ],
+            [
+              5765,
+              1089
+            ],
+            [
+              5855,
+              1089
+            ],
+            [
+              5944,
+              1089
+            ],
+            [
+              6034,
+              1089
+            ],
+            [
+              6123,
+              1089
+            ],
+            [
+              6213,
+              1089
+            ],
+            [
+              6302,
+              1089
+            ],
+            [
+              6392,
+              1083
+            ],
+            [
+              6481,
+              1083
+            ],
+            [
+              6493,
+              1083
+            ],
+            [
+              6493,
+              1133
+            ],
+            [
+              6481,
+              1133
+            ],
+            [
+              6392,
+              1133
+            ],
+            [
+              6302,
+              1139
+            ],
+            [
+              6213,
+              1139
+            ],
+            [
+              6123,
+              1139
+            ],
+            [
+              6034,
+              1139
+            ],
+            [
+              5944,
+              1139
+            ],
+            [
+              5855,
+              1139
+            ],
+            [
+              5765,
+              1139
+            ],
+            [
+              5676,
+              1139
+            ],
+            [
+              5586,
+              1139
+            ],
+            [
+              5497,
+              1139
+            ],
+            [
+              5407,
+              1139
+            ],
+            [
+              5318,
+              1127
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 58750.0,
+          "area_estimated_polygon_relative": 0.0013471350124276357,
+          "centroid_polygon": [
+            5905.5,
+            1112.8
+          ],
+          "line_mean_y": 1132.7142857142858,
+          "line_coordinates": [
+            [
+              5318,
+              1122
+            ],
+            [
+              5407,
+              1134
+            ],
+            [
+              5497,
+              1134
+            ],
+            [
+              5586,
+              1134
+            ],
+            [
+              5676,
+              1134
+            ],
+            [
+              5765,
+              1134
+            ],
+            [
+              5855,
+              1134
+            ],
+            [
+              5944,
+              1134
+            ],
+            [
+              6034,
+              1134
+            ],
+            [
+              6123,
+              1134
+            ],
+            [
+              6213,
+              1134
+            ],
+            [
+              6302,
+              1134
+            ],
+            [
+              6392,
+              1128
+            ],
+            [
+              6481,
+              1128
+            ],
+            [
+              6493,
+              1128
+            ]
+          ],
+          "line_extent": 1175,
+          "line_total_characters": 8,
+          "line_total_punctuation": 0,
+          "line_total_spaces": 0,
+          "line_total_poly_points": 30,
+          "line_total_base_points": 15,
+          "line_character_density": 146.875,
+          "line_character_per_point": 0.5333333333333333,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 89
+            },
+            "1": {
+              "direct_angle": -85.23635830927383,
+              "extent": 90
+            },
+            "2": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "3": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "4": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "5": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "6": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "7": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "8": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "9": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "10": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "11": {
+              "direct_angle": -80.53767779197439,
+              "extent": 90
+            },
+            "12": {
+              "direct_angle": 99.46232220802563,
+              "extent": 89
+            },
+            "13": {
+              "direct_angle": 180.0,
+              "extent": 12
+            },
+            "14": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 166.875,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "0"
+        },
+        "1": {
+          "line_id": "tr_1_tl_2",
+          "annotation": "readingOrder {index:1;}",
+          "text": "VAN DE",
+          "polygon_coordinates": [
+            [
+              5789,
+              1441
+            ],
+            [
+              5879,
+              1441
+            ],
+            [
+              5968,
+              1441
+            ],
+            [
+              6028,
+              1447
+            ],
+            [
+              6028,
+              1497
+            ],
+            [
+              5968,
+              1491
+            ],
+            [
+              5879,
+              1491
+            ],
+            [
+              5789,
+              1491
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 11950.0,
+          "area_estimated_polygon_relative": 0.0002740129940171957,
+          "centroid_polygon": [
+            5908.5,
+            1466.7531380753137
+          ],
+          "line_mean_y": 1486.0,
+          "line_coordinates": [
+            [
+              5789,
+              1486
+            ],
+            [
+              5879,
+              1486
+            ],
+            [
+              5968,
+              1486
+            ],
+            [
+              6028,
+              1492
+            ]
+          ],
+          "line_extent": 239,
+          "line_total_characters": 6,
+          "line_total_punctuation": 0,
+          "line_total_spaces": 1,
+          "line_total_poly_points": 8,
+          "line_total_base_points": 4,
+          "line_character_density": 39.833333333333336,
+          "line_character_per_point": 1.5,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 90
+            },
+            "1": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "2": {
+              "direct_angle": 168.31063082456083,
+              "extent": 60
+            },
+            "3": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 60.0,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "1"
+        },
+        "2": {
+          "line_id": "tr_1_tl_3",
+          "annotation": "readingOrder {index:2;}",
+          "text": "ONDEOFFICIEREN EN SOLDATEN",
+          "polygon_coordinates": [
+            [
+              4691,
+              1876
+            ],
+            [
+              4780,
+              1882
+            ],
+            [
+              4870,
+              1882
+            ],
+            [
+              4959,
+              1876
+            ],
+            [
+              5049,
+              1882
+            ],
+            [
+              5138,
+              1882
+            ],
+            [
+              5228,
+              1882
+            ],
+            [
+              5318,
+              1882
+            ],
+            [
+              5407,
+              1882
+            ],
+            [
+              5497,
+              1882
+            ],
+            [
+              5586,
+              1882
+            ],
+            [
+              5676,
+              1882
+            ],
+            [
+              5765,
+              1882
+            ],
+            [
+              5855,
+              1888
+            ],
+            [
+              5944,
+              1888
+            ],
+            [
+              6034,
+              1888
+            ],
+            [
+              6123,
+              1888
+            ],
+            [
+              6213,
+              1888
+            ],
+            [
+              6302,
+              1888
+            ],
+            [
+              6392,
+              1888
+            ],
+            [
+              6481,
+              1888
+            ],
+            [
+              6571,
+              1882
+            ],
+            [
+              6660,
+              1882
+            ],
+            [
+              6750,
+              1888
+            ],
+            [
+              6840,
+              1888
+            ],
+            [
+              6929,
+              1888
+            ],
+            [
+              7019,
+              1894
+            ],
+            [
+              7108,
+              1894
+            ],
+            [
+              7120,
+              1894
+            ],
+            [
+              7120,
+              1944
+            ],
+            [
+              7108,
+              1944
+            ],
+            [
+              7019,
+              1944
+            ],
+            [
+              6929,
+              1938
+            ],
+            [
+              6840,
+              1938
+            ],
+            [
+              6750,
+              1938
+            ],
+            [
+              6660,
+              1932
+            ],
+            [
+              6571,
+              1932
+            ],
+            [
+              6481,
+              1938
+            ],
+            [
+              6392,
+              1938
+            ],
+            [
+              6302,
+              1938
+            ],
+            [
+              6213,
+              1938
+            ],
+            [
+              6123,
+              1938
+            ],
+            [
+              6034,
+              1938
+            ],
+            [
+              5944,
+              1938
+            ],
+            [
+              5855,
+              1938
+            ],
+            [
+              5765,
+              1932
+            ],
+            [
+              5676,
+              1932
+            ],
+            [
+              5586,
+              1932
+            ],
+            [
+              5497,
+              1932
+            ],
+            [
+              5407,
+              1932
+            ],
+            [
+              5318,
+              1932
+            ],
+            [
+              5228,
+              1932
+            ],
+            [
+              5138,
+              1932
+            ],
+            [
+              5049,
+              1932
+            ],
+            [
+              4959,
+              1926
+            ],
+            [
+              4870,
+              1932
+            ],
+            [
+              4780,
+              1932
+            ],
+            [
+              4691,
+              1926
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 121450.0,
+          "area_estimated_polygon_relative": 0.0027848433576057254,
+          "centroid_polygon": [
+            5905.5,
+            1909.8233841086867
+          ],
+          "line_mean_y": 1929.75,
+          "line_coordinates": [
+            [
+              4691,
+              1921
+            ],
+            [
+              4780,
+              1927
+            ],
+            [
+              4870,
+              1927
+            ],
+            [
+              4959,
+              1921
+            ],
+            [
+              5049,
+              1927
+            ],
+            [
+              5138,
+              1927
+            ],
+            [
+              5228,
+              1927
+            ],
+            [
+              5318,
+              1927
+            ],
+            [
+              5407,
+              1927
+            ],
+            [
+              5497,
+              1927
+            ],
+            [
+              5586,
+              1927
+            ],
+            [
+              5676,
+              1927
+            ],
+            [
+              5765,
+              1927
+            ],
+            [
+              5855,
+              1933
+            ],
+            [
+              5944,
+              1933
+            ],
+            [
+              6034,
+              1933
+            ],
+            [
+              6123,
+              1933
+            ],
+            [
+              6213,
+              1933
+            ],
+            [
+              6302,
+              1933
+            ],
+            [
+              6392,
+              1933
+            ],
+            [
+              6481,
+              1933
+            ],
+            [
+              6571,
+              1927
+            ],
+            [
+              6660,
+              1927
+            ],
+            [
+              6750,
+              1933
+            ],
+            [
+              6840,
+              1933
+            ],
+            [
+              6929,
+              1933
+            ],
+            [
+              7019,
+              1939
+            ],
+            [
+              7108,
+              1939
+            ],
+            [
+              7120,
+              1939
+            ]
+          ],
+          "line_extent": 2429,
+          "line_total_characters": 26,
+          "line_total_punctuation": 0,
+          "line_total_spaces": 2,
+          "line_total_poly_points": 58,
+          "line_total_base_points": 29,
+          "line_character_density": 93.42307692307692,
+          "line_character_per_point": 0.896551724137931,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 89
+            },
+            "1": {
+              "direct_angle": -80.53767779197439,
+              "extent": 90
+            },
+            "2": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "3": {
+              "direct_angle": 85.23635830927383,
+              "extent": 90
+            },
+            "4": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "5": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "6": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "7": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "8": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "9": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "10": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "11": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "12": {
+              "direct_angle": 80.53767779197439,
+              "extent": 90
+            },
+            "13": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "14": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "15": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "16": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "17": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "18": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "19": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "20": {
+              "direct_angle": -80.53767779197439,
+              "extent": 90
+            },
+            "21": {
+              "direct_angle": 99.46232220802563,
+              "extent": 89
+            },
+            "22": {
+              "direct_angle": 80.53767779197439,
+              "extent": 90
+            },
+            "23": {
+              "direct_angle": -90.0,
+              "extent": 90
+            },
+            "24": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "25": {
+              "direct_angle": 80.53767779197439,
+              "extent": 90
+            },
+            "26": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "27": {
+              "direct_angle": 180.0,
+              "extent": 12
+            },
+            "28": {}
+          },
+          "regular_base_points": false,
+          "point_char_density": 100.38461538461539,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "2"
+        },
+        "3": {
+          "line_id": "line_1696355612805_1431",
+          "annotation": "readingOrder {index:3;}",
+          "text": "de",
+          "polygon_coordinates": [
+            [
+              5935,
+              2174
+            ],
+            [
+              6045,
+              2173
+            ],
+            [
+              6045,
+              2223
+            ],
+            [
+              5935,
+              2224
+            ]
+          ],
+          "shape_class_polygon": "Parallelogram",
+          "area_estimated_polygon": 5500.0,
+          "area_estimated_polygon_relative": 0.00012611476712088505,
+          "centroid_polygon": [
+            5990.0,
+            2198.5
+          ],
+          "line_mean_y": 2218.5,
+          "line_coordinates": [
+            [
+              5935,
+              2219
+            ],
+            [
+              6045,
+              2218
+            ]
+          ],
+          "line_extent": 110,
+          "line_total_characters": 2,
+          "line_total_punctuation": 0,
+          "line_total_spaces": 0,
+          "line_total_poly_points": 4,
+          "line_total_base_points": 2,
+          "line_character_density": 55.0,
+          "line_character_per_point": 1.0,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 110
+            },
+            "1": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 110.0,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "3"
+        },
+        "4": {
+          "line_id": "tr_1_tl_4",
+          "annotation": "readingOrder {index:4;} textStyle {offset:4; length:3;strikethrough:true;}",
+          "text": "VAN HET",
+          "polygon_coordinates": [
+            [
+              5765,
+              2229
+            ],
+            [
+              5855,
+              2235
+            ],
+            [
+              5944,
+              2229
+            ],
+            [
+              6034,
+              2235
+            ],
+            [
+              6040,
+              2235
+            ],
+            [
+              6040,
+              2285
+            ],
+            [
+              6034,
+              2285
+            ],
+            [
+              5944,
+              2279
+            ],
+            [
+              5855,
+              2285
+            ],
+            [
+              5765,
+              2279
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 13750.0,
+          "area_estimated_polygon_relative": 0.0003152869178022126,
+          "centroid_polygon": [
+            5902.5,
+            2257.0654545454545
+          ],
+          "line_mean_y": 2277.6,
+          "line_coordinates": [
+            [
+              5765,
+              2274
+            ],
+            [
+              5855,
+              2280
+            ],
+            [
+              5944,
+              2274
+            ],
+            [
+              6034,
+              2280
+            ],
+            [
+              6040,
+              2280
+            ]
+          ],
+          "line_extent": 275,
+          "line_total_characters": 7,
+          "line_total_punctuation": 0,
+          "line_total_spaces": 1,
+          "line_total_poly_points": 10,
+          "line_total_base_points": 5,
+          "line_character_density": 39.285714285714285,
+          "line_character_per_point": 1.4,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 90
+            },
+            "1": {
+              "direct_angle": -94.76364169072617,
+              "extent": 89
+            },
+            "2": {
+              "direct_angle": 85.23635830927383,
+              "extent": 90
+            },
+            "3": {
+              "direct_angle": -175.91438322002512,
+              "extent": 6
+            },
+            "4": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 64.28571428571429,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "4",
+          "annotations": {
+            "0": {
+              "label": "textStyle",
+              "offset_start": "4",
+              "length": "3",
+              "offset_end": 7,
+              "unicode": "HET"
+            }
+          }
+        },
+        "5": {
+          "line_id": "tr_1_tl_5",
+          "annotation": "readingOrder {index:5;}",
+          "text": "Koloniale Reserve",
+          "polygon_coordinates": [
+            [
+              5168,
+              2497
+            ],
+            [
+              5258,
+              2497
+            ],
+            [
+              5347,
+              2491
+            ],
+            [
+              5437,
+              2497
+            ],
+            [
+              5526,
+              2503
+            ],
+            [
+              5616,
+              2497
+            ],
+            [
+              5706,
+              2497
+            ],
+            [
+              5795,
+              2497
+            ],
+            [
+              5885,
+              2503
+            ],
+            [
+              5974,
+              2503
+            ],
+            [
+              6064,
+              2491
+            ],
+            [
+              6153,
+              2497
+            ],
+            [
+              6243,
+              2503
+            ],
+            [
+              6332,
+              2503
+            ],
+            [
+              6422,
+              2503
+            ],
+            [
+              6511,
+              2509
+            ],
+            [
+              6601,
+              2509
+            ],
+            [
+              6690,
+              2503
+            ],
+            [
+              6726,
+              2503
+            ],
+            [
+              6726,
+              2553
+            ],
+            [
+              6690,
+              2553
+            ],
+            [
+              6601,
+              2559
+            ],
+            [
+              6511,
+              2559
+            ],
+            [
+              6422,
+              2553
+            ],
+            [
+              6332,
+              2553
+            ],
+            [
+              6243,
+              2553
+            ],
+            [
+              6153,
+              2547
+            ],
+            [
+              6064,
+              2541
+            ],
+            [
+              5974,
+              2553
+            ],
+            [
+              5885,
+              2553
+            ],
+            [
+              5795,
+              2547
+            ],
+            [
+              5706,
+              2547
+            ],
+            [
+              5616,
+              2547
+            ],
+            [
+              5526,
+              2553
+            ],
+            [
+              5437,
+              2547
+            ],
+            [
+              5347,
+              2541
+            ],
+            [
+              5258,
+              2547
+            ],
+            [
+              5168,
+              2547
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 77900.0,
+          "area_estimated_polygon_relative": 0.0017862437015848992,
+          "centroid_polygon": [
+            5947.0,
+            2525.0673940949937
+          ],
+          "line_mean_y": 2545.2,
+          "line_coordinates": [
+            [
+              5168,
+              2542
+            ],
+            [
+              5258,
+              2542
+            ],
+            [
+              5347,
+              2536
+            ],
+            [
+              5437,
+              2542
+            ],
+            [
+              5526,
+              2548
+            ],
+            [
+              5616,
+              2542
+            ],
+            [
+              5706,
+              2542
+            ],
+            [
+              5795,
+              2542
+            ],
+            [
+              5885,
+              2548
+            ],
+            [
+              5974,
+              2548
+            ],
+            [
+              6064,
+              2536
+            ],
+            [
+              6153,
+              2542
+            ],
+            [
+              6243,
+              2548
+            ],
+            [
+              6332,
+              2548
+            ],
+            [
+              6422,
+              2548
+            ],
+            [
+              6511,
+              2554
+            ],
+            [
+              6601,
+              2554
+            ],
+            [
+              6690,
+              2548
+            ],
+            [
+              6726,
+              2548
+            ]
+          ],
+          "line_extent": 1558,
+          "line_total_characters": 17,
+          "line_total_punctuation": 0,
+          "line_total_spaces": 1,
+          "line_total_poly_points": 38,
+          "line_total_base_points": 19,
+          "line_character_density": 91.6470588235294,
+          "line_character_per_point": 0.8947368421052632,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 90
+            },
+            "1": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "2": {
+              "direct_angle": 85.23635830927383,
+              "extent": 90
+            },
+            "3": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "4": {
+              "direct_angle": -85.23635830927383,
+              "extent": 90
+            },
+            "5": {
+              "direct_angle": 90.0,
+              "extent": 90
+            },
+            "6": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "7": {
+              "direct_angle": 80.53767779197439,
+              "extent": 90
+            },
+            "8": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "9": {
+              "direct_angle": -85.23635830927383,
+              "extent": 90
+            },
+            "10": {
+              "direct_angle": 93.17983011986423,
+              "extent": 89
+            },
+            "11": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "12": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "13": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "14": {
+              "direct_angle": 99.46232220802563,
+              "extent": 89
+            },
+            "15": {
+              "direct_angle": -80.53767779197439,
+              "extent": 90
+            },
+            "16": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "17": {
+              "direct_angle": 173.54118362128133,
+              "extent": 36
+            },
+            "18": {}
+          },
+          "regular_base_points": false,
+          "point_char_density": 100.58823529411765,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "5"
+        },
+        "6": {
+          "line_id": "line_1696355606868_1427",
+          "annotation": "readingOrder {index:6;}",
+          "text": "KOLONIAAL WERFDEPOT.",
+          "polygon_coordinates": [
+            [
+              4989,
+              2640
+            ],
+            [
+              6362,
+              2640
+            ],
+            [
+              6720,
+              2646
+            ],
+            [
+              6875,
+              2652
+            ],
+            [
+              6875,
+              2702
+            ],
+            [
+              6810,
+              2702
+            ],
+            [
+              5168,
+              2696
+            ],
+            [
+              4989,
+              2690
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 107926.0,
+          "area_estimated_polygon_relative": 0.002474738610234298,
+          "centroid_polygon": [
+            5936.825306228342,
+            2669.9122546930303
+          ],
+          "line_mean_y": 2688.6,
+          "line_coordinates": [
+            [
+              4989,
+              2685
+            ],
+            [
+              5079,
+              2685
+            ],
+            [
+              5168,
+              2691
+            ],
+            [
+              5258,
+              2691
+            ],
+            [
+              5347,
+              2691
+            ],
+            [
+              5437,
+              2691
+            ],
+            [
+              5526,
+              2691
+            ],
+            [
+              5616,
+              2685
+            ],
+            [
+              5706,
+              2685
+            ],
+            [
+              5741,
+              2685
+            ],
+            [
+              6362,
+              2685
+            ],
+            [
+              6452,
+              2691
+            ],
+            [
+              6541,
+              2691
+            ],
+            [
+              6631,
+              2691
+            ],
+            [
+              6720,
+              2691
+            ],
+            [
+              6810,
+              2697
+            ],
+            [
+              6875,
+              2697
+            ]
+          ],
+          "line_extent": 1886,
+          "line_total_characters": 20,
+          "line_total_punctuation": 1,
+          "line_total_spaces": 1,
+          "line_total_poly_points": 8,
+          "line_total_base_points": 17,
+          "line_character_density": 94.3,
+          "line_character_per_point": 1.1764705882352942,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 90
+            },
+            "1": {
+              "direct_angle": 99.46232220802563,
+              "extent": 89
+            },
+            "2": {
+              "direct_angle": -80.53767779197439,
+              "extent": 90
+            },
+            "3": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "4": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "5": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "6": {
+              "direct_angle": -80.53767779197439,
+              "extent": 90
+            },
+            "7": {
+              "direct_angle": 90.0,
+              "extent": 90
+            },
+            "8": {
+              "direct_angle": 180.0,
+              "extent": 35
+            },
+            "9": {
+              "direct_angle": 0.0,
+              "extent": 621
+            },
+            "10": {
+              "direct_angle": 179.35261761305813,
+              "extent": 90
+            },
+            "11": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "12": {
+              "direct_angle": 0.0,
+              "extent": 90
+            },
+            "13": {
+              "direct_angle": 180.0,
+              "extent": 89
+            },
+            "14": {
+              "direct_angle": 80.53767779197439,
+              "extent": 90
+            },
+            "15": {
+              "direct_angle": -166.5042667192042,
+              "extent": 65
+            },
+            "16": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 76.5,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "6"
+        }
+      }
+    },
+    "1": {
+      "region_orientation": "0",
+      "region_type": "footnote",
+      "identifier": "tr_2",
+      "reading_order": "62",
+      "structure": "footnote",
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "4703",
+          "5065"
+        ],
+        [
+          "5425",
+          "5065"
+        ],
+        [
+          "5425",
+          "5196"
+        ],
+        [
+          "4703",
+          "5196"
+        ]
+      ],
+      "bbox_height": 131,
+      "bbox_width": 722,
+      "bbox_area": 94582,
+      "bbox_area_relative": 0.0021687612552413727,
+      "centroid": [
+        5064.0,
+        5130.5
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "line_1696355580318_1412",
+          "annotation": "readingOrder {index:0;}",
+          "text": "Model n:o. 178 Art. 319, \u00a7 1. ",
+          "polygon_coordinates": [
+            [
+              4703,
+              5070
+            ],
+            [
+              5258,
+              5082
+            ],
+            [
+              5425,
+              5088
+            ],
+            [
+              5425,
+              5138
+            ],
+            [
+              5347,
+              5138
+            ],
+            [
+              4906,
+              5132
+            ],
+            [
+              4792,
+              5126
+            ],
+            [
+              4703,
+              5120
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 39577.0,
+          "area_estimated_polygon_relative": 0.0009074989342442304,
+          "centroid_polygon": [
+            5062.207974328524,
+            5105.474492760947
+          ],
+          "line_mean_y": 5126.25,
+          "line_coordinates": [
+            [
+              4703,
+              5115
+            ],
+            [
+              4792,
+              5121
+            ],
+            [
+              4882,
+              5121
+            ],
+            [
+              4906,
+              5127
+            ],
+            [
+              4977,
+              5121
+            ],
+            [
+              5043,
+              5127
+            ],
+            [
+              5258,
+              5127
+            ],
+            [
+              5347,
+              5133
+            ],
+            [
+              5425,
+              5133
+            ]
+          ],
+          "line_extent": 722,
+          "line_total_characters": 30,
+          "line_total_punctuation": 6,
+          "line_total_spaces": 7,
+          "line_total_poly_points": 8,
+          "line_total_base_points": 9,
+          "line_character_density": 24.066666666666666,
+          "line_character_per_point": 3.3333333333333335,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 89
+            },
+            "1": {
+              "direct_angle": -80.53767779197439,
+              "extent": 90
+            },
+            "2": {
+              "direct_angle": 174.8055710922652,
+              "extent": 24
+            },
+            "3": {
+              "direct_angle": -14.322719978203553,
+              "extent": 71
+            },
+            "4": {
+              "direct_angle": 112.61986494804043,
+              "extent": 66
+            },
+            "5": {
+              "direct_angle": -2.3059667239950272,
+              "extent": 215
+            },
+            "6": {
+              "direct_angle": 177.27368900609375,
+              "extent": 89
+            },
+            "7": {
+              "direct_angle": -151.3895403340348,
+              "extent": 78
+            },
+            "8": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 26.7,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "0"
+        },
+        "1": {
+          "line_id": "tr_2_tl_4",
+          "annotation": "readingOrder {index:1;}",
+          "text": "Juni 1894",
+          "polygon_coordinates": [
+            [
+              4971,
+              5135
+            ],
+            [
+              5061,
+              5141
+            ],
+            [
+              5150,
+              5141
+            ],
+            [
+              5210,
+              5141
+            ],
+            [
+              5210,
+              5191
+            ],
+            [
+              5150,
+              5191
+            ],
+            [
+              5061,
+              5191
+            ],
+            [
+              4971,
+              5185
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 11950.0,
+          "area_estimated_polygon_relative": 0.0002740129940171957,
+          "centroid_polygon": [
+            5090.5,
+            5164.870292887029
+          ],
+          "line_mean_y": 5186.0,
+          "line_coordinates": [
+            [
+              4971,
+              5180
+            ],
+            [
+              5061,
+              5186
+            ],
+            [
+              5150,
+              5186
+            ],
+            [
+              5210,
+              5186
+            ]
+          ],
+          "line_extent": 239,
+          "line_total_characters": 9,
+          "line_total_punctuation": 0,
+          "line_total_spaces": 1,
+          "line_total_poly_points": 8,
+          "line_total_base_points": 4,
+          "line_character_density": 26.555555555555557,
+          "line_character_per_point": 2.25,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 90
+            },
+            "1": {
+              "direct_angle": -99.46232220802563,
+              "extent": 89
+            },
+            "2": {
+              "direct_angle": 180.0,
+              "extent": 60
+            },
+            "3": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 40.0,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "1"
+        }
+      },
+      "textlines_total": 0
+    },
+    "2": {
+      "region_orientation": "0",
+      "region_type": "caption",
+      "identifier": "region_1696355592242_1418",
+      "reading_order": "1",
+      "structure": "caption",
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "5625",
+          "4294"
+        ],
+        [
+          "5625",
+          "4384"
+        ],
+        [
+          "6226",
+          "4384"
+        ],
+        [
+          "6226",
+          "4294"
+        ]
+      ],
+      "bbox_height": 90,
+      "bbox_width": 601,
+      "bbox_area": 54090,
+      "bbox_area_relative": 0.0012402814097397586,
+      "centroid": [
+        5925.5,
+        4339.0
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "line_1696355592247_1421",
+          "annotation": "readingOrder {index:0;}",
+          "text": "JE MAINTIENDRAI.",
+          "polygon_coordinates": [
+            [
+              5625,
+              4335
+            ],
+            [
+              5728,
+              4313
+            ],
+            [
+              5992,
+              4294
+            ],
+            [
+              6136,
+              4313
+            ],
+            [
+              6226,
+              4326
+            ],
+            [
+              6219,
+              4376
+            ],
+            [
+              6129,
+              4363
+            ],
+            [
+              5991,
+              4344
+            ],
+            [
+              5735,
+              4363
+            ],
+            [
+              5635,
+              4384
+            ]
+          ],
+          "shape_class_polygon": "Complex Polygon",
+          "area_estimated_polygon": 29981.0,
+          "area_estimated_polygon_relative": 0.0006874630605547736,
+          "centroid_polygon": [
+            5926.094298611342,
+            4334.35998910421
+          ],
+          "line_mean_y": 4366.5,
+          "line_coordinates": [
+            [
+              5634,
+              4379
+            ],
+            [
+              5734,
+              4358
+            ],
+            [
+              5991,
+              4339
+            ],
+            [
+              6130,
+              4358
+            ],
+            [
+              6220,
+              4371
+            ]
+          ],
+          "line_extent": 586,
+          "line_total_characters": 16,
+          "line_total_punctuation": 1,
+          "line_total_spaces": 1,
+          "line_total_poly_points": 10,
+          "line_total_base_points": 5,
+          "line_character_density": 36.625,
+          "line_character_per_point": 3.2,
+          "baselines_coordinates": {
+            "0": {
+              "extent": 100
+            },
+            "1": {
+              "direct_angle": 0.7298430640241027,
+              "extent": 257
+            },
+            "2": {
+              "direct_angle": 162.14968169778317,
+              "extent": 139
+            },
+            "3": {
+              "direct_angle": -173.0189425931702,
+              "extent": 90
+            },
+            "4": {}
+          },
+          "regular_base_points": true,
+          "point_char_density": 31.25,
+          "text_continuous": false,
+          "annotation_continuous": false,
+          "reading_order": "0"
+        }
+      }
+    }
+  },
+  "separator": {
+    "0": {
+      "identifier": "r_1",
+      "reading_order": [
+        "2"
+      ],
+      "coordinates_list": [
+        [
+          255,
+          116
+        ],
+        [
+          393,
+          116
+        ],
+        [
+          393,
+          121
+        ],
+        [
+          255,
+          121
+        ]
+      ]
+    },
+    "1": {
+      "identifier": "r_2",
+      "reading_order": [
+        "3"
+      ],
+      "coordinates_list": [
+        [
+          649,
+          125
+        ],
+        [
+          818,
+          125
+        ],
+        [
+          818,
+          130
+        ],
+        [
+          649,
+          130
+        ]
+      ]
+    },
+    "2": {
+      "identifier": "r_3",
+      "reading_order": [
+        "4"
+      ],
+      "coordinates_list": [
+        [
+          848,
+          129
+        ],
+        [
+          941,
+          129
+        ],
+        [
+          941,
+          133
+        ],
+        [
+          848,
+          133
+        ]
+      ]
+    },
+    "3": {
+      "identifier": "r_4",
+      "reading_order": [
+        "5"
+      ],
+      "coordinates_list": [
+        [
+          1123,
+          132
+        ],
+        [
+          1455,
+          132
+        ],
+        [
+          1455,
+          149
+        ],
+        [
+          1123,
+          149
+        ]
+      ]
+    },
+    "4": {
+      "identifier": "r_5",
+      "reading_order": [
+        "6"
+      ],
+      "coordinates_list": [
+        [
+          7187,
+          228
+        ],
+        [
+          7304,
+          228
+        ],
+        [
+          7304,
+          231
+        ],
+        [
+          7187,
+          231
+        ]
+      ]
+    },
+    "5": {
+      "identifier": "r_6",
+      "reading_order": [
+        "7"
+      ],
+      "coordinates_list": [
+        [
+          7013,
+          229
+        ],
+        [
+          7121,
+          229
+        ],
+        [
+          7121,
+          232
+        ],
+        [
+          7013,
+          232
+        ]
+      ]
+    },
+    "6": {
+      "identifier": "r_7",
+      "reading_order": [
+        "8"
+      ],
+      "coordinates_list": [
+        [
+          7535,
+          232
+        ],
+        [
+          7753,
+          232
+        ],
+        [
+          7753,
+          243
+        ],
+        [
+          7535,
+          243
+        ]
+      ]
+    },
+    "7": {
+      "identifier": "r_8",
+      "reading_order": [
+        "9"
+      ],
+      "coordinates_list": [
+        [
+          6814,
+          230
+        ],
+        [
+          6950,
+          230
+        ],
+        [
+          6950,
+          232
+        ],
+        [
+          6814,
+          232
+        ]
+      ]
+    },
+    "8": {
+      "identifier": "r_9",
+      "reading_order": [
+        "10"
+      ],
+      "coordinates_list": [
+        [
+          6490,
+          230
+        ],
+        [
+          6590,
+          230
+        ],
+        [
+          6590,
+          233
+        ],
+        [
+          6490,
+          233
+        ]
+      ]
+    },
+    "9": {
+      "identifier": "r_10",
+      "reading_order": [
+        "11"
+      ],
+      "coordinates_list": [
+        [
+          5911,
+          2252
+        ],
+        [
+          6045,
+          2252
+        ],
+        [
+          6045,
+          2262
+        ],
+        [
+          5911,
+          2262
+        ]
+      ]
+    },
+    "10": {
+      "identifier": "r_11",
+      "reading_order": [
+        "12"
+      ],
+      "coordinates_list": [
+        [
+          5061,
+          2633
+        ],
+        [
+          5334,
+          2633
+        ],
+        [
+          5334,
+          2645
+        ],
+        [
+          5061,
+          2645
+        ]
+      ]
+    },
+    "11": {
+      "identifier": "r_12",
+      "reading_order": [
+        "13"
+      ],
+      "coordinates_list": [
+        [
+          5741,
+          2641
+        ],
+        [
+          5867,
+          2641
+        ],
+        [
+          5867,
+          2650
+        ],
+        [
+          5741,
+          2650
+        ]
+      ]
+    },
+    "12": {
+      "identifier": "r_13",
+      "reading_order": [
+        "14"
+      ],
+      "coordinates_list": [
+        [
+          5443,
+          2640
+        ],
+        [
+          5571,
+          2640
+        ],
+        [
+          5571,
+          2647
+        ],
+        [
+          5443,
+          2647
+        ]
+      ]
+    },
+    "13": {
+      "identifier": "r_14",
+      "reading_order": [
+        "15"
+      ],
+      "coordinates_list": [
+        [
+          6728,
+          2650
+        ],
+        [
+          6866,
+          2650
+        ],
+        [
+          6866,
+          2659
+        ],
+        [
+          6728,
+          2659
+        ]
+      ]
+    },
+    "14": {
+      "identifier": "r_15",
+      "reading_order": [
+        "16"
+      ],
+      "coordinates_list": [
+        [
+          5072,
+          2661
+        ],
+        [
+          5247,
+          2661
+        ],
+        [
+          5247,
+          2670
+        ],
+        [
+          5072,
+          2670
+        ]
+      ]
+    },
+    "15": {
+      "identifier": "r_16",
+      "reading_order": [
+        "17"
+      ],
+      "coordinates_list": [
+        [
+          5356,
+          3153
+        ],
+        [
+          5789,
+          3153
+        ],
+        [
+          5789,
+          3160
+        ],
+        [
+          5356,
+          3160
+        ]
+      ]
+    },
+    "16": {
+      "identifier": "r_17",
+      "reading_order": [
+        "18"
+      ],
+      "coordinates_list": [
+        [
+          6044,
+          3155
+        ],
+        [
+          6479,
+          3155
+        ],
+        [
+          6479,
+          3163
+        ],
+        [
+          6044,
+          3163
+        ]
+      ]
+    },
+    "17": {
+      "identifier": "r_18",
+      "reading_order": [
+        "19"
+      ],
+      "coordinates_list": [
+        [
+          5865,
+          3158
+        ],
+        [
+          5974,
+          3158
+        ],
+        [
+          5974,
+          3164
+        ],
+        [
+          5865,
+          3164
+        ]
+      ]
+    },
+    "18": {
+      "identifier": "r_19",
+      "reading_order": [
+        "20"
+      ],
+      "coordinates_list": [
+        [
+          5790,
+          4126
+        ],
+        [
+          5869,
+          4126
+        ],
+        [
+          5869,
+          4130
+        ],
+        [
+          5790,
+          4130
+        ]
+      ]
+    },
+    "19": {
+      "identifier": "r_20",
+      "reading_order": [
+        "21"
+      ],
+      "coordinates_list": [
+        [
+          5764,
+          4178
+        ],
+        [
+          5858,
+          4178
+        ],
+        [
+          5858,
+          4180
+        ],
+        [
+          5764,
+          4180
+        ]
+      ]
+    },
+    "20": {
+      "identifier": "r_21",
+      "reading_order": [
+        "22"
+      ],
+      "coordinates_list": [
+        [
+          5798,
+          4214
+        ],
+        [
+          5989,
+          4214
+        ],
+        [
+          5989,
+          4219
+        ],
+        [
+          5798,
+          4219
+        ]
+      ]
+    },
+    "21": {
+      "identifier": "r_22",
+      "reading_order": [
+        "23"
+      ],
+      "coordinates_list": [
+        [
+          5833,
+          4251
+        ],
+        [
+          6020,
+          4251
+        ],
+        [
+          6020,
+          4259
+        ],
+        [
+          5833,
+          4259
+        ]
+      ]
+    },
+    "22": {
+      "identifier": "r_23",
+      "reading_order": [
+        "24"
+      ],
+      "coordinates_list": [
+        [
+          5849,
+          4371
+        ],
+        [
+          6105,
+          4371
+        ],
+        [
+          6105,
+          4389
+        ],
+        [
+          5849,
+          4389
+        ]
+      ]
+    },
+    "23": {
+      "identifier": "r_24",
+      "reading_order": [
+        "25"
+      ],
+      "coordinates_list": [
+        [
+          1749,
+          5681
+        ],
+        [
+          1860,
+          5681
+        ],
+        [
+          1860,
+          5686
+        ],
+        [
+          1749,
+          5686
+        ]
+      ]
+    },
+    "24": {
+      "identifier": "r_25",
+      "reading_order": [
+        "26"
+      ],
+      "coordinates_list": [
+        [
+          1876,
+          5682
+        ],
+        [
+          1974,
+          5682
+        ],
+        [
+          1974,
+          5689
+        ],
+        [
+          1876,
+          5689
+        ]
+      ]
+    },
+    "25": {
+      "identifier": "r_26",
+      "reading_order": [
+        "27"
+      ],
+      "coordinates_list": [
+        [
+          887,
+          5697
+        ],
+        [
+          1255,
+          5697
+        ],
+        [
+          1255,
+          5710
+        ],
+        [
+          887,
+          5710
+        ]
+      ]
+    },
+    "26": {
+      "identifier": "r_27",
+      "reading_order": [
+        "28"
+      ],
+      "coordinates_list": [
+        [
+          1279,
+          5699
+        ],
+        [
+          1469,
+          5699
+        ],
+        [
+          1469,
+          5705
+        ],
+        [
+          1279,
+          5705
+        ]
+      ]
+    },
+    "27": {
+      "identifier": "r_28",
+      "reading_order": [
+        "29"
+      ],
+      "coordinates_list": [
+        [
+          2786,
+          5740
+        ],
+        [
+          2963,
+          5740
+        ],
+        [
+          2963,
+          5751
+        ],
+        [
+          2786,
+          5751
+        ]
+      ]
+    },
+    "28": {
+      "identifier": "r_29",
+      "reading_order": [
+        "30"
+      ],
+      "coordinates_list": [
+        [
+          346,
+          2724
+        ],
+        [
+          364,
+          2724
+        ],
+        [
+          364,
+          3000
+        ],
+        [
+          346,
+          3000
+        ]
+      ]
+    },
+    "29": {
+      "identifier": "r_30",
+      "reading_order": [
+        "31"
+      ],
+      "coordinates_list": [
+        [
+          340,
+          3719
+        ],
+        [
+          353,
+          3719
+        ],
+        [
+          353,
+          4135
+        ],
+        [
+          340,
+          4135
+        ]
+      ]
+    },
+    "30": {
+      "identifier": "r_31",
+      "reading_order": [
+        "32"
+      ],
+      "coordinates_list": [
+        [
+          337,
+          4135
+        ],
+        [
+          351,
+          4135
+        ],
+        [
+          351,
+          5571
+        ],
+        [
+          337,
+          5571
+        ]
+      ]
+    },
+    "31": {
+      "identifier": "r_32",
+      "reading_order": [
+        "33"
+      ],
+      "coordinates_list": [
+        [
+          362,
+          1356
+        ],
+        [
+          363,
+          1356
+        ],
+        [
+          363,
+          1444
+        ],
+        [
+          362,
+          1444
+        ]
+      ]
+    },
+    "32": {
+      "identifier": "r_33",
+      "reading_order": [
+        "34"
+      ],
+      "coordinates_list": [
+        [
+          357,
+          2531
+        ],
+        [
+          363,
+          2531
+        ],
+        [
+          363,
+          2725
+        ],
+        [
+          357,
+          2725
+        ]
+      ]
+    },
+    "33": {
+      "identifier": "r_34",
+      "reading_order": [
+        "35"
+      ],
+      "coordinates_list": [
+        [
+          353,
+          3000
+        ],
+        [
+          363,
+          3000
+        ],
+        [
+          363,
+          3589
+        ],
+        [
+          353,
+          3589
+        ]
+      ]
+    },
+    "34": {
+      "identifier": "r_35",
+      "reading_order": [
+        "36"
+      ],
+      "coordinates_list": [
+        [
+          372,
+          3115
+        ],
+        [
+          412,
+          3115
+        ],
+        [
+          412,
+          5448
+        ],
+        [
+          372,
+          5448
+        ]
+      ]
+    },
+    "35": {
+      "identifier": "r_36",
+      "reading_order": [
+        "37"
+      ],
+      "coordinates_list": [
+        [
+          398,
+          2804
+        ],
+        [
+          414,
+          2804
+        ],
+        [
+          414,
+          3115
+        ],
+        [
+          398,
+          3115
+        ]
+      ]
+    },
+    "36": {
+      "identifier": "r_37",
+      "reading_order": [
+        "38"
+      ],
+      "coordinates_list": [
+        [
+          411,
+          1869
+        ],
+        [
+          423,
+          1869
+        ],
+        [
+          423,
+          2511
+        ],
+        [
+          411,
+          2511
+        ]
+      ]
+    },
+    "37": {
+      "identifier": "r_38",
+      "reading_order": [
+        "39"
+      ],
+      "coordinates_list": [
+        [
+          424,
+          1036
+        ],
+        [
+          438,
+          1036
+        ],
+        [
+          438,
+          1699
+        ],
+        [
+          424,
+          1699
+        ]
+      ]
+    },
+    "38": {
+      "identifier": "r_39",
+      "reading_order": [
+        "40"
+      ],
+      "coordinates_list": [
+        [
+          4859,
+          1808
+        ],
+        [
+          4864,
+          1808
+        ],
+        [
+          4864,
+          1897
+        ],
+        [
+          4859,
+          1897
+        ]
+      ]
+    },
+    "39": {
+      "identifier": "r_40",
+      "reading_order": [
+        "41"
+      ],
+      "coordinates_list": [
+        [
+          6063,
+          4006
+        ],
+        [
+          6075,
+          4006
+        ],
+        [
+          6075,
+          4261
+        ],
+        [
+          6063,
+          4261
+        ]
+      ]
+    },
+    "40": {
+      "identifier": "r_41",
+      "reading_order": [
+        "42"
+      ],
+      "coordinates_list": [
+        [
+          7114,
+          1811
+        ],
+        [
+          7119,
+          1811
+        ],
+        [
+          7119,
+          1900
+        ],
+        [
+          7114,
+          1900
+        ]
+      ]
+    },
+    "41": {
+      "identifier": "r_42",
+      "reading_order": [
+        "43"
+      ],
+      "coordinates_list": [
+        [
+          8035,
+          468
+        ],
+        [
+          8039,
+          468
+        ],
+        [
+          8039,
+          656
+        ],
+        [
+          8035,
+          656
+        ]
+      ]
+    },
+    "42": {
+      "identifier": "r_43",
+      "reading_order": [
+        "44"
+      ],
+      "coordinates_list": [
+        [
+          8033,
+          686
+        ],
+        [
+          8043,
+          686
+        ],
+        [
+          8043,
+          1220
+        ],
+        [
+          8033,
+          1220
+        ]
+      ]
+    },
+    "43": {
+      "identifier": "r_44",
+      "reading_order": [
+        "45"
+      ],
+      "coordinates_list": [
+        [
+          8033,
+          2686
+        ],
+        [
+          8039,
+          2686
+        ],
+        [
+          8039,
+          2975
+        ],
+        [
+          8033,
+          2975
+        ]
+      ]
+    },
+    "44": {
+      "identifier": "r_45",
+      "reading_order": [
+        "46"
+      ],
+      "coordinates_list": [
+        [
+          8049,
+          446
+        ],
+        [
+          8061,
+          446
+        ],
+        [
+          8061,
+          702
+        ],
+        [
+          8049,
+          702
+        ]
+      ]
+    },
+    "45": {
+      "identifier": "r_46",
+      "reading_order": [
+        "47"
+      ],
+      "coordinates_list": [
+        [
+          8032,
+          3002
+        ],
+        [
+          8035,
+          3002
+        ],
+        [
+          8035,
+          3117
+        ],
+        [
+          8032,
+          3117
+        ]
+      ]
+    },
+    "46": {
+      "identifier": "r_47",
+      "reading_order": [
+        "48"
+      ],
+      "coordinates_list": [
+        [
+          8054,
+          834
+        ],
+        [
+          8075,
+          834
+        ],
+        [
+          8075,
+          1167
+        ],
+        [
+          8054,
+          1167
+        ]
+      ]
+    },
+    "47": {
+      "identifier": "r_48",
+      "reading_order": [
+        "49"
+      ],
+      "coordinates_list": [
+        [
+          8047,
+          4304
+        ],
+        [
+          8072,
+          4304
+        ],
+        [
+          8072,
+          5230
+        ],
+        [
+          8047,
+          5230
+        ]
+      ]
+    },
+    "48": {
+      "identifier": "r_49",
+      "reading_order": [
+        "50"
+      ],
+      "coordinates_list": [
+        [
+          8059,
+          3454
+        ],
+        [
+          8088,
+          3454
+        ],
+        [
+          8088,
+          3936
+        ],
+        [
+          8059,
+          3936
+        ]
+      ]
+    },
+    "49": {
+      "identifier": "r_50",
+      "reading_order": [
+        "51"
+      ],
+      "coordinates_list": [
+        [
+          8077,
+          2195
+        ],
+        [
+          8098,
+          2195
+        ],
+        [
+          8098,
+          2411
+        ],
+        [
+          8077,
+          2411
+        ]
+      ]
+    },
+    "50": {
+      "identifier": "r_51",
+      "reading_order": [
+        "52"
+      ],
+      "coordinates_list": [
+        [
+          8061,
+          5095
+        ],
+        [
+          8070,
+          5095
+        ],
+        [
+          8070,
+          5271
+        ],
+        [
+          8061,
+          5271
+        ]
+      ]
+    },
+    "51": {
+      "identifier": "r_52",
+      "reading_order": [
+        "53"
+      ],
+      "coordinates_list": [
+        [
+          8069,
+          4420
+        ],
+        [
+          8086,
+          4420
+        ],
+        [
+          8086,
+          4679
+        ],
+        [
+          8069,
+          4679
+        ]
+      ]
+    },
+    "52": {
+      "identifier": "r_53",
+      "reading_order": [
+        "54"
+      ],
+      "coordinates_list": [
+        [
+          8078,
+          3958
+        ],
+        [
+          8083,
+          3958
+        ],
+        [
+          8083,
+          4057
+        ],
+        [
+          8078,
+          4057
+        ]
+      ]
+    },
+    "53": {
+      "identifier": "r_54",
+      "reading_order": [
+        "55"
+      ],
+      "coordinates_list": [
+        [
+          8080,
+          3823
+        ],
+        [
+          8086,
+          3823
+        ],
+        [
+          8086,
+          3942
+        ],
+        [
+          8080,
+          3942
+        ]
+      ]
+    },
+    "54": {
+      "identifier": "r_55",
+      "reading_order": [
+        "56"
+      ],
+      "coordinates_list": [
+        [
+          8084,
+          3517
+        ],
+        [
+          8094,
+          3517
+        ],
+        [
+          8094,
+          3726
+        ],
+        [
+          8084,
+          3726
+        ]
+      ]
+    },
+    "55": {
+      "identifier": "r_56",
+      "reading_order": [
+        "57"
+      ],
+      "coordinates_list": [
+        [
+          1480,
+          5682
+        ],
+        [
+          1526,
+          5682
+        ],
+        [
+          1526,
+          5687
+        ],
+        [
+          1480,
+          5687
+        ]
+      ]
+    },
+    "56": {
+      "identifier": "r_57",
+      "reading_order": [
+        "58"
+      ],
+      "coordinates_list": [
+        [
+          8034,
+          1194
+        ],
+        [
+          8040,
+          1194
+        ],
+        [
+          8040,
+          1362
+        ],
+        [
+          8034,
+          1362
+        ]
+      ]
+    },
+    "57": {
+      "identifier": "r_58",
+      "reading_order": [
+        "59"
+      ],
+      "coordinates_list": [
+        [
+          8023,
+          4626
+        ],
+        [
+          8026,
+          4626
+        ],
+        [
+          8026,
+          4775
+        ],
+        [
+          8023,
+          4775
+        ]
+      ]
+    },
+    "58": {
+      "identifier": "r_59",
+      "reading_order": [
+        "60"
+      ],
+      "coordinates_list": [
+        [
+          8221,
+          989
+        ],
+        [
+          8228,
+          989
+        ],
+        [
+          8228,
+          1063
+        ],
+        [
+          8221,
+          1063
+        ]
+      ]
+    }
+  }
+}

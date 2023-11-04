@@ -1,0 +1,4291 @@
+{
+  "creator": "Transkribus",
+  "created": "2023-10-03T17:33:53.302+02:00",
+  "last_change": "2023-10-03T19:57:23.330+02:00",
+  "measurement_unit": "pixel",
+  "primary_language": null,
+  "producer": "Transkribus",
+  "image": {
+    "image_filename": "nl_zh_ha_na-2_10_50-505_272.jpg",
+    "image_width": 8461,
+    "image_height": 6000,
+    "image_size": 8480,
+    "bbox_page_coordinates": [
+      328,
+      157,
+      8315,
+      5864
+    ],
+    "page_area": 43552081.5,
+    "page_contour_shape": "rectangular"
+  },
+  "regions": {
+    "0": {
+      "region_orientation": "0",
+      "region_type": "0",
+      "identifier": "tr_4",
+      "reading_order": "166",
+      "structure": 0,
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "525",
+          "445"
+        ],
+        [
+          "4065",
+          "445"
+        ],
+        [
+          "4065",
+          "2248"
+        ],
+        [
+          "525",
+          "2248"
+        ]
+      ],
+      "bbox_height": 1803,
+      "bbox_width": 3540,
+      "bbox_area": 6382620,
+      "bbox_area_relative": 0.14655143405717588,
+      "centroid": [
+        2295.0,
+        1346.5
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_4_tl_1",
+          "annotation": "readingOrder {index:0;}"
+        }
+      }
+    },
+    "1": {
+      "region_orientation": "0",
+      "region_type": "0",
+      "identifier": "tr_6",
+      "reading_order": "167",
+      "structure": 0,
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "817",
+          "3150"
+        ],
+        [
+          "2567",
+          "3150"
+        ],
+        [
+          "2567",
+          "3627"
+        ],
+        [
+          "817",
+          "3627"
+        ]
+      ],
+      "bbox_height": 477,
+      "bbox_width": 1750,
+      "bbox_area": 834750,
+      "bbox_area_relative": 0.019166707336364625,
+      "centroid": [
+        1692.0,
+        3388.5
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_6_tl_1",
+          "annotation": "readingOrder {index:0;}"
+        }
+      }
+    },
+    "2": {
+      "region_orientation": "0",
+      "region_type": "0",
+      "identifier": "tr_7",
+      "reading_order": "168",
+      "structure": 0,
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "829",
+          "4672"
+        ],
+        [
+          "2304",
+          "4672"
+        ],
+        [
+          "2304",
+          "5162"
+        ],
+        [
+          "829",
+          "5162"
+        ]
+      ],
+      "bbox_height": 490,
+      "bbox_width": 1475,
+      "bbox_area": 722750,
+      "bbox_area_relative": 0.01659507364762807,
+      "centroid": [
+        1566.5,
+        4917.0
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_7_tl_1",
+          "annotation": "readingOrder {index:0;}"
+        }
+      }
+    },
+    "3": {
+      "region_orientation": "0",
+      "region_type": "0",
+      "identifier": "tr_5",
+      "reading_order": "169",
+      "structure": 0,
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "2608",
+          "2517"
+        ],
+        [
+          "4173",
+          "2517"
+        ],
+        [
+          "4173",
+          "5407"
+        ],
+        [
+          "2608",
+          "5407"
+        ]
+      ],
+      "bbox_height": 2890,
+      "bbox_width": 1565,
+      "bbox_area": 4522850,
+      "bbox_area_relative": 0.10384922704555465,
+      "centroid": [
+        3390.5,
+        3962.0
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_5_tl_1",
+          "annotation": "readingOrder {index:0;}"
+        }
+      }
+    },
+    "4": {
+      "region_orientation": "0",
+      "region_type": "0",
+      "identifier": "tr_3",
+      "reading_order": "170",
+      "structure": 0,
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "4411",
+          "594"
+        ],
+        [
+          "7934",
+          "594"
+        ],
+        [
+          "7934",
+          "3562"
+        ],
+        [
+          "4411",
+          "3562"
+        ]
+      ],
+      "bbox_height": 2968,
+      "bbox_width": 3523,
+      "bbox_area": 10456264,
+      "bbox_area_relative": 0.24008643536360025,
+      "centroid": [
+        6172.5,
+        2078.0
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_3_tl_1",
+          "annotation": "readingOrder {index:0;}"
+        }
+      }
+    },
+    "5": {
+      "region_orientation": "0",
+      "region_type": "0",
+      "identifier": "tr_1",
+      "reading_order": "172",
+      "structure": 0,
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "4435",
+          "3950"
+        ],
+        [
+          "7838",
+          "3950"
+        ],
+        [
+          "7838",
+          "5681"
+        ],
+        [
+          "4435",
+          "5681"
+        ]
+      ],
+      "bbox_height": 1731,
+      "bbox_width": 3403,
+      "bbox_area": 5890593,
+      "bbox_area_relative": 0.13525399469139035,
+      "centroid": [
+        6136.5,
+        4815.5
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_1_tl_1",
+          "annotation": "readingOrder {index:0;}"
+        }
+      },
+      "textlines_total": 0
+    },
+    "6": {
+      "region_orientation": "0",
+      "region_type": "0",
+      "identifier": "tr_2",
+      "reading_order": "171",
+      "structure": 0,
+      "shape_class": "Rectangle",
+      "coordinates_list": [
+        [
+          "6083",
+          "415"
+        ],
+        [
+          "7802",
+          "415"
+        ],
+        [
+          "7802",
+          "1311"
+        ],
+        [
+          "6083",
+          "1311"
+        ]
+      ],
+      "bbox_height": 896,
+      "bbox_width": 1719,
+      "bbox_area": 1540224,
+      "bbox_area_relative": 0.03536510648750508,
+      "centroid": [
+        6942.5,
+        863.0
+      ],
+      "textlines": {
+        "0": {
+          "line_id": "tr_2_tl_1",
+          "annotation": "readingOrder {index:0;}"
+        }
+      }
+    }
+  },
+  "separator": {
+    "0": {
+      "identifier": "r_1",
+      "reading_order": [
+        "0"
+      ],
+      "coordinates_list": [
+        [
+          4514,
+          496
+        ],
+        [
+          7828,
+          496
+        ],
+        [
+          7828,
+          520
+        ],
+        [
+          4514,
+          520
+        ]
+      ]
+    },
+    "1": {
+      "identifier": "r_2",
+      "reading_order": [
+        "1"
+      ],
+      "coordinates_list": [
+        [
+          3180,
+          506
+        ],
+        [
+          3586,
+          506
+        ],
+        [
+          3586,
+          523
+        ],
+        [
+          3180,
+          523
+        ]
+      ]
+    },
+    "2": {
+      "identifier": "r_3",
+      "reading_order": [
+        "2"
+      ],
+      "coordinates_list": [
+        [
+          4067,
+          508
+        ],
+        [
+          4187,
+          508
+        ],
+        [
+          4187,
+          514
+        ],
+        [
+          4067,
+          514
+        ]
+      ]
+    },
+    "3": {
+      "identifier": "r_4",
+      "reading_order": [
+        "3"
+      ],
+      "coordinates_list": [
+        [
+          2421,
+          513
+        ],
+        [
+          3164,
+          513
+        ],
+        [
+          3164,
+          533
+        ],
+        [
+          2421,
+          533
+        ]
+      ]
+    },
+    "4": {
+      "identifier": "r_5",
+      "reading_order": [
+        "4"
+      ],
+      "coordinates_list": [
+        [
+          3495,
+          520
+        ],
+        [
+          4200,
+          520
+        ],
+        [
+          4200,
+          530
+        ],
+        [
+          3495,
+          530
+        ]
+      ]
+    },
+    "5": {
+      "identifier": "r_6",
+      "reading_order": [
+        "5"
+      ],
+      "coordinates_list": [
+        [
+          4454,
+          520
+        ],
+        [
+          7811,
+          520
+        ],
+        [
+          7811,
+          530
+        ],
+        [
+          4454,
+          530
+        ]
+      ]
+    },
+    "6": {
+      "identifier": "r_7",
+      "reading_order": [
+        "6"
+      ],
+      "coordinates_list": [
+        [
+          2175,
+          521
+        ],
+        [
+          2421,
+          521
+        ],
+        [
+          2421,
+          536
+        ],
+        [
+          2175,
+          536
+        ]
+      ]
+    },
+    "7": {
+      "identifier": "r_8",
+      "reading_order": [
+        "7"
+      ],
+      "coordinates_list": [
+        [
+          1582,
+          524
+        ],
+        [
+          2176,
+          524
+        ],
+        [
+          2176,
+          543
+        ],
+        [
+          1582,
+          543
+        ]
+      ]
+    },
+    "8": {
+      "identifier": "r_9",
+      "reading_order": [
+        "8"
+      ],
+      "coordinates_list": [
+        [
+          3190,
+          527
+        ],
+        [
+          3475,
+          527
+        ],
+        [
+          3475,
+          535
+        ],
+        [
+          3190,
+          535
+        ]
+      ]
+    },
+    "9": {
+      "identifier": "r_10",
+      "reading_order": [
+        "9"
+      ],
+      "coordinates_list": [
+        [
+          1191,
+          530
+        ],
+        [
+          1566,
+          530
+        ],
+        [
+          1566,
+          546
+        ],
+        [
+          1191,
+          546
+        ]
+      ]
+    },
+    "10": {
+      "identifier": "r_11",
+      "reading_order": [
+        "10"
+      ],
+      "coordinates_list": [
+        [
+          2445,
+          533
+        ],
+        [
+          3168,
+          533
+        ],
+        [
+          3168,
+          541
+        ],
+        [
+          2445,
+          541
+        ]
+      ]
+    },
+    "11": {
+      "identifier": "r_12",
+      "reading_order": [
+        "11"
+      ],
+      "coordinates_list": [
+        [
+          1886,
+          539
+        ],
+        [
+          2436,
+          539
+        ],
+        [
+          2436,
+          548
+        ],
+        [
+          1886,
+          548
+        ]
+      ]
+    },
+    "12": {
+      "identifier": "r_13",
+      "reading_order": [
+        "12"
+      ],
+      "coordinates_list": [
+        [
+          1600,
+          546
+        ],
+        [
+          1862,
+          546
+        ],
+        [
+          1862,
+          551
+        ],
+        [
+          1600,
+          551
+        ]
+      ]
+    },
+    "13": {
+      "identifier": "r_14",
+      "reading_order": [
+        "13"
+      ],
+      "coordinates_list": [
+        [
+          1334,
+          550
+        ],
+        [
+          1456,
+          550
+        ],
+        [
+          1456,
+          554
+        ],
+        [
+          1334,
+          554
+        ]
+      ]
+    },
+    "14": {
+      "identifier": "r_15",
+      "reading_order": [
+        "14"
+      ],
+      "coordinates_list": [
+        [
+          3331,
+          876
+        ],
+        [
+          4190,
+          876
+        ],
+        [
+          4190,
+          893
+        ],
+        [
+          3331,
+          893
+        ]
+      ]
+    },
+    "15": {
+      "identifier": "r_16",
+      "reading_order": [
+        "15"
+      ],
+      "coordinates_list": [
+        [
+          4408,
+          876
+        ],
+        [
+          7562,
+          876
+        ],
+        [
+          7562,
+          897
+        ],
+        [
+          4408,
+          897
+        ]
+      ]
+    },
+    "16": {
+      "identifier": "r_17",
+      "reading_order": [
+        "16"
+      ],
+      "coordinates_list": [
+        [
+          7571,
+          876
+        ],
+        [
+          7806,
+          876
+        ],
+        [
+          7806,
+          886
+        ],
+        [
+          7571,
+          886
+        ]
+      ]
+    },
+    "17": {
+      "identifier": "r_18",
+      "reading_order": [
+        "17"
+      ],
+      "coordinates_list": [
+        [
+          983,
+          882
+        ],
+        [
+          3328,
+          882
+        ],
+        [
+          3328,
+          912
+        ],
+        [
+          983,
+          912
+        ]
+      ]
+    },
+    "18": {
+      "identifier": "r_19",
+      "reading_order": [
+        "18"
+      ],
+      "coordinates_list": [
+        [
+          797,
+          903
+        ],
+        [
+          983,
+          903
+        ],
+        [
+          983,
+          912
+        ],
+        [
+          797,
+          912
+        ]
+      ]
+    },
+    "19": {
+      "identifier": "r_20",
+      "reading_order": [
+        "19"
+      ],
+      "coordinates_list": [
+        [
+          2169,
+          1129
+        ],
+        [
+          2338,
+          1129
+        ],
+        [
+          2338,
+          1137
+        ],
+        [
+          2169,
+          1137
+        ]
+      ]
+    },
+    "20": {
+      "identifier": "r_21",
+      "reading_order": [
+        "20"
+      ],
+      "coordinates_list": [
+        [
+          2131,
+          1211
+        ],
+        [
+          2244,
+          1211
+        ],
+        [
+          2244,
+          1216
+        ],
+        [
+          2131,
+          1216
+        ]
+      ]
+    },
+    "21": {
+      "identifier": "r_22",
+      "reading_order": [
+        "21"
+      ],
+      "coordinates_list": [
+        [
+          1831,
+          1213
+        ],
+        [
+          1950,
+          1213
+        ],
+        [
+          1950,
+          1216
+        ],
+        [
+          1831,
+          1216
+        ]
+      ]
+    },
+    "22": {
+      "identifier": "r_23",
+      "reading_order": [
+        "22"
+      ],
+      "coordinates_list": [
+        [
+          6473,
+          1239
+        ],
+        [
+          7075,
+          1239
+        ],
+        [
+          7075,
+          1247
+        ],
+        [
+          6473,
+          1247
+        ]
+      ]
+    },
+    "23": {
+      "identifier": "r_24",
+      "reading_order": [
+        "23"
+      ],
+      "coordinates_list": [
+        [
+          6096,
+          1242
+        ],
+        [
+          6473,
+          1242
+        ],
+        [
+          6473,
+          1254
+        ],
+        [
+          6096,
+          1254
+        ]
+      ]
+    },
+    "24": {
+      "identifier": "r_25",
+      "reading_order": [
+        "24"
+      ],
+      "coordinates_list": [
+        [
+          7567,
+          1413
+        ],
+        [
+          7727,
+          1413
+        ],
+        [
+          7727,
+          1422
+        ],
+        [
+          7567,
+          1422
+        ]
+      ]
+    },
+    "25": {
+      "identifier": "r_26",
+      "reading_order": [
+        "25"
+      ],
+      "coordinates_list": [
+        [
+          1066,
+          1644
+        ],
+        [
+          1239,
+          1644
+        ],
+        [
+          1239,
+          1659
+        ],
+        [
+          1066,
+          1659
+        ]
+      ]
+    },
+    "26": {
+      "identifier": "r_27",
+      "reading_order": [
+        "26"
+      ],
+      "coordinates_list": [
+        [
+          6341,
+          2394
+        ],
+        [
+          6457,
+          2394
+        ],
+        [
+          6457,
+          2397
+        ],
+        [
+          6341,
+          2397
+        ]
+      ]
+    },
+    "27": {
+      "identifier": "r_28",
+      "reading_order": [
+        "27"
+      ],
+      "coordinates_list": [
+        [
+          4411,
+          2422
+        ],
+        [
+          7814,
+          2422
+        ],
+        [
+          7814,
+          2438
+        ],
+        [
+          4411,
+          2438
+        ]
+      ]
+    },
+    "28": {
+      "identifier": "r_29",
+      "reading_order": [
+        "28"
+      ],
+      "coordinates_list": [
+        [
+          2104,
+          2426
+        ],
+        [
+          4200,
+          2426
+        ],
+        [
+          4200,
+          2437
+        ],
+        [
+          2104,
+          2437
+        ]
+      ]
+    },
+    "29": {
+      "identifier": "r_30",
+      "reading_order": [
+        "29"
+      ],
+      "coordinates_list": [
+        [
+          1500,
+          2427
+        ],
+        [
+          2088,
+          2427
+        ],
+        [
+          2088,
+          2433
+        ],
+        [
+          1500,
+          2433
+        ]
+      ]
+    },
+    "30": {
+      "identifier": "r_31",
+      "reading_order": [
+        "30"
+      ],
+      "coordinates_list": [
+        [
+          1321,
+          2429
+        ],
+        [
+          1481,
+          2429
+        ],
+        [
+          1481,
+          2435
+        ],
+        [
+          1321,
+          2435
+        ]
+      ]
+    },
+    "31": {
+      "identifier": "r_32",
+      "reading_order": [
+        "31"
+      ],
+      "coordinates_list": [
+        [
+          915,
+          2430
+        ],
+        [
+          1295,
+          2430
+        ],
+        [
+          1295,
+          2436
+        ],
+        [
+          915,
+          2436
+        ]
+      ]
+    },
+    "32": {
+      "identifier": "r_33",
+      "reading_order": [
+        "32"
+      ],
+      "coordinates_list": [
+        [
+          7621,
+          2678
+        ],
+        [
+          7814,
+          2678
+        ],
+        [
+          7814,
+          2688
+        ],
+        [
+          7621,
+          2688
+        ]
+      ]
+    },
+    "33": {
+      "identifier": "r_34",
+      "reading_order": [
+        "33"
+      ],
+      "coordinates_list": [
+        [
+          4414,
+          3966
+        ],
+        [
+          7820,
+          3966
+        ],
+        [
+          7820,
+          3978
+        ],
+        [
+          4414,
+          3978
+        ]
+      ]
+    },
+    "34": {
+      "identifier": "r_35",
+      "reading_order": [
+        "34"
+      ],
+      "coordinates_list": [
+        [
+          2824,
+          3968
+        ],
+        [
+          3825,
+          3968
+        ],
+        [
+          3825,
+          3978
+        ],
+        [
+          2824,
+          3978
+        ]
+      ]
+    },
+    "35": {
+      "identifier": "r_36",
+      "reading_order": [
+        "35"
+      ],
+      "coordinates_list": [
+        [
+          2147,
+          3969
+        ],
+        [
+          2808,
+          3969
+        ],
+        [
+          2808,
+          3978
+        ],
+        [
+          2147,
+          3978
+        ]
+      ]
+    },
+    "36": {
+      "identifier": "r_37",
+      "reading_order": [
+        "36"
+      ],
+      "coordinates_list": [
+        [
+          1077,
+          3972
+        ],
+        [
+          1310,
+          3972
+        ],
+        [
+          1310,
+          3978
+        ],
+        [
+          1077,
+          3978
+        ]
+      ]
+    },
+    "37": {
+      "identifier": "r_38",
+      "reading_order": [
+        "37"
+      ],
+      "coordinates_list": [
+        [
+          837,
+          3973
+        ],
+        [
+          1051,
+          3973
+        ],
+        [
+          1051,
+          3978
+        ],
+        [
+          837,
+          3978
+        ]
+      ]
+    },
+    "38": {
+      "identifier": "r_39",
+      "reading_order": [
+        "38"
+      ],
+      "coordinates_list": [
+        [
+          1950,
+          3973
+        ],
+        [
+          2046,
+          3973
+        ],
+        [
+          2046,
+          3978
+        ],
+        [
+          1950,
+          3978
+        ]
+      ]
+    },
+    "39": {
+      "identifier": "r_40",
+      "reading_order": [
+        "39"
+      ],
+      "coordinates_list": [
+        [
+          1329,
+          3974
+        ],
+        [
+          1436,
+          3974
+        ],
+        [
+          1436,
+          3979
+        ],
+        [
+          1329,
+          3979
+        ]
+      ]
+    },
+    "40": {
+      "identifier": "r_41",
+      "reading_order": [
+        "40"
+      ],
+      "coordinates_list": [
+        [
+          3928,
+          3975
+        ],
+        [
+          4210,
+          3975
+        ],
+        [
+          4210,
+          3982
+        ],
+        [
+          3928,
+          3982
+        ]
+      ]
+    },
+    "41": {
+      "identifier": "r_42",
+      "reading_order": [
+        "41"
+      ],
+      "coordinates_list": [
+        [
+          7365,
+          4288
+        ],
+        [
+          7845,
+          4288
+        ],
+        [
+          7845,
+          4298
+        ],
+        [
+          7365,
+          4298
+        ]
+      ]
+    },
+    "42": {
+      "identifier": "r_43",
+      "reading_order": [
+        "42"
+      ],
+      "coordinates_list": [
+        [
+          7595,
+          4550
+        ],
+        [
+          7710,
+          4550
+        ],
+        [
+          7710,
+          4553
+        ],
+        [
+          7595,
+          4553
+        ]
+      ]
+    },
+    "43": {
+      "identifier": "r_44",
+      "reading_order": [
+        "43"
+      ],
+      "coordinates_list": [
+        [
+          1103,
+          5492
+        ],
+        [
+          1313,
+          5492
+        ],
+        [
+          1313,
+          5494
+        ],
+        [
+          1103,
+          5494
+        ]
+      ]
+    },
+    "44": {
+      "identifier": "r_45",
+      "reading_order": [
+        "44"
+      ],
+      "coordinates_list": [
+        [
+          1538,
+          5494
+        ],
+        [
+          1619,
+          5494
+        ],
+        [
+          1619,
+          5496
+        ],
+        [
+          1538,
+          5496
+        ]
+      ]
+    },
+    "45": {
+      "identifier": "r_46",
+      "reading_order": [
+        "45"
+      ],
+      "coordinates_list": [
+        [
+          1786,
+          5494
+        ],
+        [
+          2079,
+          5494
+        ],
+        [
+          2079,
+          5498
+        ],
+        [
+          1786,
+          5498
+        ]
+      ]
+    },
+    "46": {
+      "identifier": "r_47",
+      "reading_order": [
+        "46"
+      ],
+      "coordinates_list": [
+        [
+          2131,
+          5497
+        ],
+        [
+          2442,
+          5497
+        ],
+        [
+          2442,
+          5503
+        ],
+        [
+          2131,
+          5503
+        ]
+      ]
+    },
+    "47": {
+      "identifier": "r_48",
+      "reading_order": [
+        "47"
+      ],
+      "coordinates_list": [
+        [
+          2445,
+          5501
+        ],
+        [
+          2902,
+          5501
+        ],
+        [
+          2902,
+          5511
+        ],
+        [
+          2445,
+          5511
+        ]
+      ]
+    },
+    "48": {
+      "identifier": "r_49",
+      "reading_order": [
+        "48"
+      ],
+      "coordinates_list": [
+        [
+          837,
+          5502
+        ],
+        [
+          1287,
+          5502
+        ],
+        [
+          1287,
+          5517
+        ],
+        [
+          837,
+          5517
+        ]
+      ]
+    },
+    "49": {
+      "identifier": "r_50",
+      "reading_order": [
+        "49"
+      ],
+      "coordinates_list": [
+        [
+          1890,
+          5504
+        ],
+        [
+          2468,
+          5504
+        ],
+        [
+          2468,
+          5523
+        ],
+        [
+          1890,
+          5523
+        ]
+      ]
+    },
+    "50": {
+      "identifier": "r_51",
+      "reading_order": [
+        "50"
+      ],
+      "coordinates_list": [
+        [
+          2907,
+          5510
+        ],
+        [
+          4222,
+          5510
+        ],
+        [
+          4222,
+          5520
+        ],
+        [
+          2907,
+          5520
+        ]
+      ]
+    },
+    "51": {
+      "identifier": "r_52",
+      "reading_order": [
+        "51"
+      ],
+      "coordinates_list": [
+        [
+          4403,
+          5510
+        ],
+        [
+          5592,
+          5510
+        ],
+        [
+          5592,
+          5515
+        ],
+        [
+          4403,
+          5515
+        ]
+      ]
+    },
+    "52": {
+      "identifier": "r_53",
+      "reading_order": [
+        "52"
+      ],
+      "coordinates_list": [
+        [
+          2468,
+          5511
+        ],
+        [
+          2820,
+          5511
+        ],
+        [
+          2820,
+          5531
+        ],
+        [
+          2468,
+          5531
+        ]
+      ]
+    },
+    "53": {
+      "identifier": "r_54",
+      "reading_order": [
+        "53"
+      ],
+      "coordinates_list": [
+        [
+          5606,
+          5516
+        ],
+        [
+          6986,
+          5516
+        ],
+        [
+          6986,
+          5525
+        ],
+        [
+          5606,
+          5525
+        ]
+      ]
+    },
+    "54": {
+      "identifier": "r_55",
+      "reading_order": [
+        "54"
+      ],
+      "coordinates_list": [
+        [
+          2993,
+          5518
+        ],
+        [
+          4051,
+          5518
+        ],
+        [
+          4051,
+          5542
+        ],
+        [
+          2993,
+          5542
+        ]
+      ]
+    },
+    "55": {
+      "identifier": "r_56",
+      "reading_order": [
+        "55"
+      ],
+      "coordinates_list": [
+        [
+          4404,
+          5520
+        ],
+        [
+          5591,
+          5520
+        ],
+        [
+          5591,
+          5539
+        ],
+        [
+          4404,
+          5539
+        ]
+      ]
+    },
+    "56": {
+      "identifier": "r_57",
+      "reading_order": [
+        "56"
+      ],
+      "coordinates_list": [
+        [
+          7141,
+          5521
+        ],
+        [
+          7817,
+          5521
+        ],
+        [
+          7817,
+          5527
+        ],
+        [
+          7141,
+          5527
+        ]
+      ]
+    },
+    "57": {
+      "identifier": "r_58",
+      "reading_order": [
+        "57"
+      ],
+      "coordinates_list": [
+        [
+          2853,
+          5524
+        ],
+        [
+          2975,
+          5524
+        ],
+        [
+          2975,
+          5532
+        ],
+        [
+          2853,
+          5532
+        ]
+      ]
+    },
+    "58": {
+      "identifier": "r_59",
+      "reading_order": [
+        "58"
+      ],
+      "coordinates_list": [
+        [
+          5602,
+          5526
+        ],
+        [
+          6310,
+          5526
+        ],
+        [
+          6310,
+          5548
+        ],
+        [
+          5602,
+          5548
+        ]
+      ]
+    },
+    "59": {
+      "identifier": "r_60",
+      "reading_order": [
+        "59"
+      ],
+      "coordinates_list": [
+        [
+          4052,
+          5527
+        ],
+        [
+          4231,
+          5527
+        ],
+        [
+          4231,
+          5541
+        ],
+        [
+          4052,
+          5541
+        ]
+      ]
+    },
+    "60": {
+      "identifier": "r_61",
+      "reading_order": [
+        "60"
+      ],
+      "coordinates_list": [
+        [
+          6336,
+          5529
+        ],
+        [
+          7036,
+          5529
+        ],
+        [
+          7036,
+          5548
+        ],
+        [
+          6336,
+          5548
+        ]
+      ]
+    },
+    "61": {
+      "identifier": "r_62",
+      "reading_order": [
+        "61"
+      ],
+      "coordinates_list": [
+        [
+          7166,
+          5529
+        ],
+        [
+          7850,
+          5529
+        ],
+        [
+          7850,
+          5549
+        ],
+        [
+          7166,
+          5549
+        ]
+      ]
+    },
+    "62": {
+      "identifier": "r_63",
+      "reading_order": [
+        "62"
+      ],
+      "coordinates_list": [
+        [
+          5604,
+          5785
+        ],
+        [
+          5808,
+          5785
+        ],
+        [
+          5808,
+          5800
+        ],
+        [
+          5604,
+          5800
+        ]
+      ]
+    },
+    "63": {
+      "identifier": "r_64",
+      "reading_order": [
+        "63"
+      ],
+      "coordinates_list": [
+        [
+          804,
+          5808
+        ],
+        [
+          1041,
+          5808
+        ],
+        [
+          1041,
+          5812
+        ],
+        [
+          804,
+          5812
+        ]
+      ]
+    },
+    "64": {
+      "identifier": "r_65",
+      "reading_order": [
+        "64"
+      ],
+      "coordinates_list": [
+        [
+          355,
+          380
+        ],
+        [
+          359,
+          380
+        ],
+        [
+          359,
+          514
+        ],
+        [
+          355,
+          514
+        ]
+      ]
+    },
+    "65": {
+      "identifier": "r_66",
+      "reading_order": [
+        "65"
+      ],
+      "coordinates_list": [
+        [
+          394,
+          3142
+        ],
+        [
+          427,
+          3142
+        ],
+        [
+          427,
+          4195
+        ],
+        [
+          394,
+          4195
+        ]
+      ]
+    },
+    "66": {
+      "identifier": "r_67",
+      "reading_order": [
+        "66"
+      ],
+      "coordinates_list": [
+        [
+          763,
+          767
+        ],
+        [
+          782,
+          767
+        ],
+        [
+          782,
+          1202
+        ],
+        [
+          763,
+          1202
+        ]
+      ]
+    },
+    "67": {
+      "identifier": "r_68",
+      "reading_order": [
+        "67"
+      ],
+      "coordinates_list": [
+        [
+          768,
+          1646
+        ],
+        [
+          799,
+          1646
+        ],
+        [
+          799,
+          3450
+        ],
+        [
+          768,
+          3450
+        ]
+      ]
+    },
+    "68": {
+      "identifier": "r_69",
+      "reading_order": [
+        "68"
+      ],
+      "coordinates_list": [
+        [
+          783,
+          3453
+        ],
+        [
+          818,
+          3453
+        ],
+        [
+          818,
+          5364
+        ],
+        [
+          783,
+          5364
+        ]
+      ]
+    },
+    "69": {
+      "identifier": "r_70",
+      "reading_order": [
+        "69"
+      ],
+      "coordinates_list": [
+        [
+          787,
+          681
+        ],
+        [
+          799,
+          681
+        ],
+        [
+          799,
+          2400
+        ],
+        [
+          787,
+          2400
+        ]
+      ]
+    },
+    "70": {
+      "identifier": "r_71",
+      "reading_order": [
+        "70"
+      ],
+      "coordinates_list": [
+        [
+          794,
+          2402
+        ],
+        [
+          806,
+          2402
+        ],
+        [
+          806,
+          3198
+        ],
+        [
+          794,
+          3198
+        ]
+      ]
+    },
+    "71": {
+      "identifier": "r_72",
+      "reading_order": [
+        "71"
+      ],
+      "coordinates_list": [
+        [
+          804,
+          3198
+        ],
+        [
+          809,
+          3198
+        ],
+        [
+          809,
+          3471
+        ],
+        [
+          804,
+          3471
+        ]
+      ]
+    },
+    "72": {
+      "identifier": "r_73",
+      "reading_order": [
+        "72"
+      ],
+      "coordinates_list": [
+        [
+          806,
+          3475
+        ],
+        [
+          822,
+          3475
+        ],
+        [
+          822,
+          4823
+        ],
+        [
+          806,
+          4823
+        ]
+      ]
+    },
+    "73": {
+      "identifier": "r_74",
+      "reading_order": [
+        "73"
+      ],
+      "coordinates_list": [
+        [
+          820,
+          4823
+        ],
+        [
+          827,
+          4823
+        ],
+        [
+          827,
+          5491
+        ],
+        [
+          820,
+          5491
+        ]
+      ]
+    },
+    "74": {
+      "identifier": "r_75",
+      "reading_order": [
+        "74"
+      ],
+      "coordinates_list": [
+        [
+          1037,
+          969
+        ],
+        [
+          1042,
+          969
+        ],
+        [
+          1042,
+          1180
+        ],
+        [
+          1037,
+          1180
+        ]
+      ]
+    },
+    "75": {
+      "identifier": "r_76",
+      "reading_order": [
+        "75"
+      ],
+      "coordinates_list": [
+        [
+          1038,
+          750
+        ],
+        [
+          1042,
+          750
+        ],
+        [
+          1042,
+          939
+        ],
+        [
+          1038,
+          939
+        ]
+      ]
+    },
+    "76": {
+      "identifier": "r_77",
+      "reading_order": [
+        "76"
+      ],
+      "coordinates_list": [
+        [
+          1039,
+          1183
+        ],
+        [
+          1053,
+          1183
+        ],
+        [
+          1053,
+          2282
+        ],
+        [
+          1039,
+          2282
+        ]
+      ]
+    },
+    "77": {
+      "identifier": "r_78",
+      "reading_order": [
+        "77"
+      ],
+      "coordinates_list": [
+        [
+          1048,
+          2285
+        ],
+        [
+          1052,
+          2285
+        ],
+        [
+          1052,
+          2416
+        ],
+        [
+          1048,
+          2416
+        ]
+      ]
+    },
+    "78": {
+      "identifier": "r_79",
+      "reading_order": [
+        "78"
+      ],
+      "coordinates_list": [
+        [
+          1048,
+          2442
+        ],
+        [
+          1061,
+          2442
+        ],
+        [
+          1061,
+          3631
+        ],
+        [
+          1048,
+          3631
+        ]
+      ]
+    },
+    "79": {
+      "identifier": "r_80",
+      "reading_order": [
+        "79"
+      ],
+      "coordinates_list": [
+        [
+          1058,
+          3638
+        ],
+        [
+          1069,
+          3638
+        ],
+        [
+          1069,
+          4436
+        ],
+        [
+          1058,
+          4436
+        ]
+      ]
+    },
+    "80": {
+      "identifier": "r_81",
+      "reading_order": [
+        "80"
+      ],
+      "coordinates_list": [
+        [
+          1066,
+          4440
+        ],
+        [
+          1076,
+          4440
+        ],
+        [
+          1076,
+          5090
+        ],
+        [
+          1066,
+          5090
+        ]
+      ]
+    },
+    "81": {
+      "identifier": "r_82",
+      "reading_order": [
+        "81"
+      ],
+      "coordinates_list": [
+        [
+          1073,
+          5100
+        ],
+        [
+          1078,
+          5100
+        ],
+        [
+          1078,
+          5485
+        ],
+        [
+          1073,
+          5485
+        ]
+      ]
+    },
+    "82": {
+      "identifier": "r_83",
+      "reading_order": [
+        "82"
+      ],
+      "coordinates_list": [
+        [
+          1293,
+          954
+        ],
+        [
+          1307,
+          954
+        ],
+        [
+          1307,
+          2417
+        ],
+        [
+          1293,
+          2417
+        ]
+      ]
+    },
+    "83": {
+      "identifier": "r_84",
+      "reading_order": [
+        "83"
+      ],
+      "coordinates_list": [
+        [
+          1304,
+          2441
+        ],
+        [
+          1313,
+          2441
+        ],
+        [
+          1313,
+          3286
+        ],
+        [
+          1304,
+          3286
+        ]
+      ]
+    },
+    "84": {
+      "identifier": "r_85",
+      "reading_order": [
+        "84"
+      ],
+      "coordinates_list": [
+        [
+          1311,
+          3286
+        ],
+        [
+          1318,
+          3286
+        ],
+        [
+          1318,
+          3970
+        ],
+        [
+          1311,
+          3970
+        ]
+      ]
+    },
+    "85": {
+      "identifier": "r_86",
+      "reading_order": [
+        "85"
+      ],
+      "coordinates_list": [
+        [
+          1318,
+          3981
+        ],
+        [
+          1333,
+          3981
+        ],
+        [
+          1333,
+          5488
+        ],
+        [
+          1318,
+          5488
+        ]
+      ]
+    },
+    "86": {
+      "identifier": "r_87",
+      "reading_order": [
+        "86"
+      ],
+      "coordinates_list": [
+        [
+          2083,
+          907
+        ],
+        [
+          2092,
+          907
+        ],
+        [
+          2092,
+          1545
+        ],
+        [
+          2083,
+          1545
+        ]
+      ]
+    },
+    "87": {
+      "identifier": "r_88",
+      "reading_order": [
+        "87"
+      ],
+      "coordinates_list": [
+        [
+          2088,
+          1549
+        ],
+        [
+          2099,
+          1549
+        ],
+        [
+          2099,
+          2425
+        ],
+        [
+          2088,
+          2425
+        ]
+      ]
+    },
+    "88": {
+      "identifier": "r_89",
+      "reading_order": [
+        "88"
+      ],
+      "coordinates_list": [
+        [
+          2093,
+          2439
+        ],
+        [
+          2106,
+          2439
+        ],
+        [
+          2106,
+          2994
+        ],
+        [
+          2093,
+          2994
+        ]
+      ]
+    },
+    "89": {
+      "identifier": "r_90",
+      "reading_order": [
+        "89"
+      ],
+      "coordinates_list": [
+        [
+          2103,
+          3366
+        ],
+        [
+          2111,
+          3366
+        ],
+        [
+          2111,
+          3970
+        ],
+        [
+          2103,
+          3970
+        ]
+      ]
+    },
+    "90": {
+      "identifier": "r_91",
+      "reading_order": [
+        "90"
+      ],
+      "coordinates_list": [
+        [
+          2110,
+          3983
+        ],
+        [
+          2117,
+          3983
+        ],
+        [
+          2117,
+          4566
+        ],
+        [
+          2110,
+          4566
+        ]
+      ]
+    },
+    "91": {
+      "identifier": "r_92",
+      "reading_order": [
+        "91"
+      ],
+      "coordinates_list": [
+        [
+          2113,
+          4606
+        ],
+        [
+          2122,
+          4606
+        ],
+        [
+          2122,
+          5311
+        ],
+        [
+          2113,
+          5311
+        ]
+      ]
+    },
+    "92": {
+      "identifier": "r_93",
+      "reading_order": [
+        "92"
+      ],
+      "coordinates_list": [
+        [
+          2120,
+          5311
+        ],
+        [
+          2123,
+          5311
+        ],
+        [
+          2123,
+          5492
+        ],
+        [
+          2120,
+          5492
+        ]
+      ]
+    },
+    "93": {
+      "identifier": "r_94",
+      "reading_order": [
+        "93"
+      ],
+      "coordinates_list": [
+        [
+          2585,
+          1164
+        ],
+        [
+          2605,
+          1164
+        ],
+        [
+          2605,
+          1511
+        ],
+        [
+          2585,
+          1511
+        ]
+      ]
+    },
+    "94": {
+      "identifier": "r_95",
+      "reading_order": [
+        "94"
+      ],
+      "coordinates_list": [
+        [
+          2586,
+          928
+        ],
+        [
+          2596,
+          928
+        ],
+        [
+          2596,
+          1164
+        ],
+        [
+          2586,
+          1164
+        ]
+      ]
+    },
+    "95": {
+      "identifier": "r_96",
+      "reading_order": [
+        "95"
+      ],
+      "coordinates_list": [
+        [
+          2591,
+          1771
+        ],
+        [
+          2609,
+          1771
+        ],
+        [
+          2609,
+          2163
+        ],
+        [
+          2591,
+          2163
+        ]
+      ]
+    },
+    "96": {
+      "identifier": "r_97",
+      "reading_order": [
+        "96"
+      ],
+      "coordinates_list": [
+        [
+          2593,
+          2163
+        ],
+        [
+          2600,
+          2163
+        ],
+        [
+          2600,
+          2330
+        ],
+        [
+          2593,
+          2330
+        ]
+      ]
+    },
+    "97": {
+      "identifier": "r_98",
+      "reading_order": [
+        "97"
+      ],
+      "coordinates_list": [
+        [
+          2595,
+          2490
+        ],
+        [
+          2602,
+          2490
+        ],
+        [
+          2602,
+          2677
+        ],
+        [
+          2595,
+          2677
+        ]
+      ]
+    },
+    "98": {
+      "identifier": "r_99",
+      "reading_order": [
+        "98"
+      ],
+      "coordinates_list": [
+        [
+          2596,
+          2677
+        ],
+        [
+          2618,
+          2677
+        ],
+        [
+          2618,
+          3072
+        ],
+        [
+          2596,
+          3072
+        ]
+      ]
+    },
+    "99": {
+      "identifier": "r_100",
+      "reading_order": [
+        "99"
+      ],
+      "coordinates_list": [
+        [
+          2598,
+          545
+        ],
+        [
+          2600,
+          545
+        ],
+        [
+          2600,
+          680
+        ],
+        [
+          2598,
+          680
+        ]
+      ]
+    },
+    "100": {
+      "identifier": "r_101",
+      "reading_order": [
+        "100"
+      ],
+      "coordinates_list": [
+        [
+          2598,
+          741
+        ],
+        [
+          2601,
+          741
+        ],
+        [
+          2601,
+          878
+        ],
+        [
+          2598,
+          878
+        ]
+      ]
+    },
+    "101": {
+      "identifier": "r_102",
+      "reading_order": [
+        "101"
+      ],
+      "coordinates_list": [
+        [
+          2600,
+          1511
+        ],
+        [
+          2606,
+          1511
+        ],
+        [
+          2606,
+          1642
+        ],
+        [
+          2600,
+          1642
+        ]
+      ]
+    },
+    "102": {
+      "identifier": "r_103",
+      "reading_order": [
+        "102"
+      ],
+      "coordinates_list": [
+        [
+          2604,
+          3416
+        ],
+        [
+          2622,
+          3416
+        ],
+        [
+          2622,
+          3745
+        ],
+        [
+          2604,
+          3745
+        ]
+      ]
+    },
+    "103": {
+      "identifier": "r_104",
+      "reading_order": [
+        "103"
+      ],
+      "coordinates_list": [
+        [
+          2605,
+          3745
+        ],
+        [
+          2611,
+          3745
+        ],
+        [
+          2611,
+          3908
+        ],
+        [
+          2605,
+          3908
+        ]
+      ]
+    },
+    "104": {
+      "identifier": "r_105",
+      "reading_order": [
+        "104"
+      ],
+      "coordinates_list": [
+        [
+          2607,
+          3998
+        ],
+        [
+          2616,
+          3998
+        ],
+        [
+          2616,
+          4229
+        ],
+        [
+          2607,
+          4229
+        ]
+      ]
+    },
+    "105": {
+      "identifier": "r_106",
+      "reading_order": [
+        "105"
+      ],
+      "coordinates_list": [
+        [
+          2608,
+          4229
+        ],
+        [
+          2628,
+          4229
+        ],
+        [
+          2628,
+          4623
+        ],
+        [
+          2608,
+          4623
+        ]
+      ]
+    },
+    "106": {
+      "identifier": "r_107",
+      "reading_order": [
+        "106"
+      ],
+      "coordinates_list": [
+        [
+          2613,
+          4898
+        ],
+        [
+          2631,
+          4898
+        ],
+        [
+          2631,
+          5262
+        ],
+        [
+          2613,
+          5262
+        ]
+      ]
+    },
+    "107": {
+      "identifier": "r_108",
+      "reading_order": [
+        "107"
+      ],
+      "coordinates_list": [
+        [
+          2614,
+          3072
+        ],
+        [
+          2619,
+          3072
+        ],
+        [
+          2619,
+          3177
+        ],
+        [
+          2614,
+          3177
+        ]
+      ]
+    },
+    "108": {
+      "identifier": "r_109",
+      "reading_order": [
+        "108"
+      ],
+      "coordinates_list": [
+        [
+          2615,
+          3229
+        ],
+        [
+          2621,
+          3229
+        ],
+        [
+          2621,
+          3416
+        ],
+        [
+          2615,
+          3416
+        ]
+      ]
+    },
+    "109": {
+      "identifier": "r_110",
+      "reading_order": [
+        "109"
+      ],
+      "coordinates_list": [
+        [
+          2615,
+          5262
+        ],
+        [
+          2622,
+          5262
+        ],
+        [
+          2622,
+          5460
+        ],
+        [
+          2615,
+          5460
+        ]
+      ]
+    },
+    "110": {
+      "identifier": "r_111",
+      "reading_order": [
+        "110"
+      ],
+      "coordinates_list": [
+        [
+          2623,
+          4623
+        ],
+        [
+          2629,
+          4623
+        ],
+        [
+          2629,
+          4727
+        ],
+        [
+          2623,
+          4727
+        ]
+      ]
+    },
+    "111": {
+      "identifier": "r_112",
+      "reading_order": [
+        "111"
+      ],
+      "coordinates_list": [
+        [
+          2625,
+          4774
+        ],
+        [
+          2630,
+          4774
+        ],
+        [
+          2630,
+          4898
+        ],
+        [
+          2625,
+          4898
+        ]
+      ]
+    },
+    "112": {
+      "identifier": "r_113",
+      "reading_order": [
+        "112"
+      ],
+      "coordinates_list": [
+        [
+          3585,
+          1077
+        ],
+        [
+          3607,
+          1077
+        ],
+        [
+          3607,
+          1520
+        ],
+        [
+          3585,
+          1520
+        ]
+      ]
+    },
+    "113": {
+      "identifier": "r_114",
+      "reading_order": [
+        "113"
+      ],
+      "coordinates_list": [
+        [
+          3592,
+          1778
+        ],
+        [
+          3609,
+          1778
+        ],
+        [
+          3609,
+          2128
+        ],
+        [
+          3592,
+          2128
+        ]
+      ]
+    },
+    "114": {
+      "identifier": "r_115",
+      "reading_order": [
+        "114"
+      ],
+      "coordinates_list": [
+        [
+          3593,
+          2128
+        ],
+        [
+          3600,
+          2128
+        ],
+        [
+          3600,
+          2367
+        ],
+        [
+          3593,
+          2367
+        ]
+      ]
+    },
+    "115": {
+      "identifier": "r_116",
+      "reading_order": [
+        "115"
+      ],
+      "coordinates_list": [
+        [
+          3599,
+          2665
+        ],
+        [
+          3606,
+          2665
+        ],
+        [
+          3606,
+          2896
+        ],
+        [
+          3599,
+          2896
+        ]
+      ]
+    },
+    "116": {
+      "identifier": "r_117",
+      "reading_order": [
+        "116"
+      ],
+      "coordinates_list": [
+        [
+          3601,
+          1520
+        ],
+        [
+          3608,
+          1520
+        ],
+        [
+          3608,
+          1633
+        ],
+        [
+          3601,
+          1633
+        ]
+      ]
+    },
+    "117": {
+      "identifier": "r_118",
+      "reading_order": [
+        "117"
+      ],
+      "coordinates_list": [
+        [
+          3605,
+          3545
+        ],
+        [
+          3611,
+          3545
+        ],
+        [
+          3611,
+          3683
+        ],
+        [
+          3605,
+          3683
+        ]
+      ]
+    },
+    "118": {
+      "identifier": "r_119",
+      "reading_order": [
+        "118"
+      ],
+      "coordinates_list": [
+        [
+          3605,
+          4031
+        ],
+        [
+          3616,
+          4031
+        ],
+        [
+          3616,
+          4255
+        ],
+        [
+          3605,
+          4255
+        ]
+      ]
+    },
+    "119": {
+      "identifier": "r_120",
+      "reading_order": [
+        "119"
+      ],
+      "coordinates_list": [
+        [
+          3606,
+          3352
+        ],
+        [
+          3619,
+          3352
+        ],
+        [
+          3619,
+          3545
+        ],
+        [
+          3606,
+          3545
+        ]
+      ]
+    },
+    "120": {
+      "identifier": "r_121",
+      "reading_order": [
+        "120"
+      ],
+      "coordinates_list": [
+        [
+          3607,
+          4255
+        ],
+        [
+          3629,
+          4255
+        ],
+        [
+          3629,
+          4592
+        ],
+        [
+          3607,
+          4592
+        ]
+      ]
+    },
+    "121": {
+      "identifier": "r_122",
+      "reading_order": [
+        "121"
+      ],
+      "coordinates_list": [
+        [
+          3610,
+          4971
+        ],
+        [
+          3630,
+          4971
+        ],
+        [
+          3630,
+          5499
+        ],
+        [
+          3610,
+          5499
+        ]
+      ]
+    },
+    "122": {
+      "identifier": "r_123",
+      "reading_order": [
+        "122"
+      ],
+      "coordinates_list": [
+        [
+          3619,
+          4765
+        ],
+        [
+          3630,
+          4765
+        ],
+        [
+          3630,
+          4971
+        ],
+        [
+          3619,
+          4971
+        ]
+      ]
+    },
+    "123": {
+      "identifier": "r_124",
+      "reading_order": [
+        "123"
+      ],
+      "coordinates_list": [
+        [
+          3623,
+          4592
+        ],
+        [
+          3630,
+          4592
+        ],
+        [
+          3630,
+          4724
+        ],
+        [
+          3623,
+          4724
+        ]
+      ]
+    },
+    "124": {
+      "identifier": "r_125",
+      "reading_order": [
+        "124"
+      ],
+      "coordinates_list": [
+        [
+          4196,
+          527
+        ],
+        [
+          4203,
+          527
+        ],
+        [
+          4203,
+          831
+        ],
+        [
+          4196,
+          831
+        ]
+      ]
+    },
+    "125": {
+      "identifier": "r_126",
+      "reading_order": [
+        "125"
+      ],
+      "coordinates_list": [
+        [
+          4198,
+          834
+        ],
+        [
+          4218,
+          834
+        ],
+        [
+          4218,
+          2919
+        ],
+        [
+          4198,
+          2919
+        ]
+      ]
+    },
+    "126": {
+      "identifier": "r_127",
+      "reading_order": [
+        "126"
+      ],
+      "coordinates_list": [
+        [
+          4210,
+          2923
+        ],
+        [
+          4230,
+          2923
+        ],
+        [
+          4230,
+          5507
+        ],
+        [
+          4210,
+          5507
+        ]
+      ]
+    },
+    "127": {
+      "identifier": "r_128",
+      "reading_order": [
+        "127"
+      ],
+      "coordinates_list": [
+        [
+          4300,
+          556
+        ],
+        [
+          4306,
+          556
+        ],
+        [
+          4306,
+          712
+        ],
+        [
+          4300,
+          712
+        ]
+      ]
+    },
+    "128": {
+      "identifier": "r_129",
+      "reading_order": [
+        "128"
+      ],
+      "coordinates_list": [
+        [
+          4300,
+          887
+        ],
+        [
+          4311,
+          887
+        ],
+        [
+          4311,
+          1871
+        ],
+        [
+          4300,
+          1871
+        ]
+      ]
+    },
+    "129": {
+      "identifier": "r_130",
+      "reading_order": [
+        "129"
+      ],
+      "coordinates_list": [
+        [
+          4305,
+          1898
+        ],
+        [
+          4311,
+          1898
+        ],
+        [
+          4311,
+          2140
+        ],
+        [
+          4305,
+          2140
+        ]
+      ]
+    },
+    "130": {
+      "identifier": "r_131",
+      "reading_order": [
+        "130"
+      ],
+      "coordinates_list": [
+        [
+          4306,
+          2165
+        ],
+        [
+          4311,
+          2165
+        ],
+        [
+          4311,
+          2390
+        ],
+        [
+          4306,
+          2390
+        ]
+      ]
+    },
+    "131": {
+      "identifier": "r_132",
+      "reading_order": [
+        "131"
+      ],
+      "coordinates_list": [
+        [
+          4395,
+          528
+        ],
+        [
+          4406,
+          528
+        ],
+        [
+          4406,
+          1146
+        ],
+        [
+          4395,
+          1146
+        ]
+      ]
+    },
+    "132": {
+      "identifier": "r_133",
+      "reading_order": [
+        "132"
+      ],
+      "coordinates_list": [
+        [
+          4397,
+          1146
+        ],
+        [
+          4413,
+          1146
+        ],
+        [
+          4413,
+          5496
+        ],
+        [
+          4397,
+          5496
+        ]
+      ]
+    },
+    "133": {
+      "identifier": "r_134",
+      "reading_order": [
+        "133"
+      ],
+      "coordinates_list": [
+        [
+          6071,
+          903
+        ],
+        [
+          6084,
+          903
+        ],
+        [
+          6084,
+          2428
+        ],
+        [
+          6071,
+          2428
+        ]
+      ]
+    },
+    "134": {
+      "identifier": "r_135",
+      "reading_order": [
+        "134"
+      ],
+      "coordinates_list": [
+        [
+          6072,
+          531
+        ],
+        [
+          6077,
+          531
+        ],
+        [
+          6077,
+          882
+        ],
+        [
+          6072,
+          882
+        ]
+      ]
+    },
+    "135": {
+      "identifier": "r_136",
+      "reading_order": [
+        "135"
+      ],
+      "coordinates_list": [
+        [
+          6079,
+          2440
+        ],
+        [
+          6089,
+          2440
+        ],
+        [
+          6089,
+          3963
+        ],
+        [
+          6079,
+          3963
+        ]
+      ]
+    },
+    "136": {
+      "identifier": "r_137",
+      "reading_order": [
+        "136"
+      ],
+      "coordinates_list": [
+        [
+          6085,
+          3981
+        ],
+        [
+          6093,
+          3981
+        ],
+        [
+          6093,
+          5507
+        ],
+        [
+          6085,
+          5507
+        ]
+      ]
+    },
+    "137": {
+      "identifier": "r_138",
+      "reading_order": [
+        "137"
+      ],
+      "coordinates_list": [
+        [
+          7113,
+          531
+        ],
+        [
+          7118,
+          531
+        ],
+        [
+          7118,
+          876
+        ],
+        [
+          7113,
+          876
+        ]
+      ]
+    },
+    "138": {
+      "identifier": "r_139",
+      "reading_order": [
+        "138"
+      ],
+      "coordinates_list": [
+        [
+          7115,
+          895
+        ],
+        [
+          7126,
+          895
+        ],
+        [
+          7126,
+          2422
+        ],
+        [
+          7115,
+          2422
+        ]
+      ]
+    },
+    "139": {
+      "identifier": "r_140",
+      "reading_order": [
+        "139"
+      ],
+      "coordinates_list": [
+        [
+          7124,
+          2440
+        ],
+        [
+          7134,
+          2440
+        ],
+        [
+          7134,
+          3963
+        ],
+        [
+          7124,
+          3963
+        ]
+      ]
+    },
+    "140": {
+      "identifier": "r_141",
+      "reading_order": [
+        "140"
+      ],
+      "coordinates_list": [
+        [
+          7125,
+          3991
+        ],
+        [
+          7135,
+          3991
+        ],
+        [
+          7135,
+          5519
+        ],
+        [
+          7125,
+          5519
+        ]
+      ]
+    },
+    "141": {
+      "identifier": "r_142",
+      "reading_order": [
+        "141"
+      ],
+      "coordinates_list": [
+        [
+          7813,
+          532
+        ],
+        [
+          7820,
+          532
+        ],
+        [
+          7820,
+          2418
+        ],
+        [
+          7813,
+          2418
+        ]
+      ]
+    },
+    "142": {
+      "identifier": "r_143",
+      "reading_order": [
+        "142"
+      ],
+      "coordinates_list": [
+        [
+          7817,
+          2432
+        ],
+        [
+          7824,
+          2432
+        ],
+        [
+          7824,
+          3962
+        ],
+        [
+          7817,
+          3962
+        ]
+      ]
+    },
+    "143": {
+      "identifier": "r_144",
+      "reading_order": [
+        "143"
+      ],
+      "coordinates_list": [
+        [
+          7822,
+          499
+        ],
+        [
+          7840,
+          499
+        ],
+        [
+          7840,
+          1836
+        ],
+        [
+          7822,
+          1836
+        ]
+      ]
+    },
+    "144": {
+      "identifier": "r_145",
+      "reading_order": [
+        "144"
+      ],
+      "coordinates_list": [
+        [
+          7822,
+          3980
+        ],
+        [
+          7829,
+          3980
+        ],
+        [
+          7829,
+          5525
+        ],
+        [
+          7822,
+          5525
+        ]
+      ]
+    },
+    "145": {
+      "identifier": "r_146",
+      "reading_order": [
+        "145"
+      ],
+      "coordinates_list": [
+        [
+          7825,
+          1871
+        ],
+        [
+          7846,
+          1871
+        ],
+        [
+          7846,
+          4265
+        ],
+        [
+          7825,
+          4265
+        ]
+      ]
+    },
+    "146": {
+      "identifier": "r_147",
+      "reading_order": [
+        "146"
+      ],
+      "coordinates_list": [
+        [
+          7831,
+          4379
+        ],
+        [
+          7850,
+          4379
+        ],
+        [
+          7850,
+          5303
+        ],
+        [
+          7831,
+          5303
+        ]
+      ]
+    },
+    "147": {
+      "identifier": "r_148",
+      "reading_order": [
+        "147"
+      ],
+      "coordinates_list": [
+        [
+          7835,
+          5320
+        ],
+        [
+          7851,
+          5320
+        ],
+        [
+          7851,
+          5546
+        ],
+        [
+          7835,
+          5546
+        ]
+      ]
+    },
+    "148": {
+      "identifier": "r_149",
+      "reading_order": [
+        "148"
+      ],
+      "coordinates_list": [
+        [
+          7865,
+          1553
+        ],
+        [
+          7875,
+          1553
+        ],
+        [
+          7875,
+          1812
+        ],
+        [
+          7865,
+          1812
+        ]
+      ]
+    },
+    "149": {
+      "identifier": "r_150",
+      "reading_order": [
+        "149"
+      ],
+      "coordinates_list": [
+        [
+          7866,
+          1228
+        ],
+        [
+          7877,
+          1228
+        ],
+        [
+          7877,
+          1481
+        ],
+        [
+          7866,
+          1481
+        ]
+      ]
+    },
+    "150": {
+      "identifier": "r_151",
+      "reading_order": [
+        "150"
+      ],
+      "coordinates_list": [
+        [
+          8195,
+          1197
+        ],
+        [
+          8214,
+          1197
+        ],
+        [
+          8214,
+          1598
+        ],
+        [
+          8195,
+          1598
+        ]
+      ]
+    },
+    "151": {
+      "identifier": "r_152",
+      "reading_order": [
+        "151"
+      ],
+      "coordinates_list": [
+        [
+          8196,
+          810
+        ],
+        [
+          8212,
+          810
+        ],
+        [
+          8212,
+          1091
+        ],
+        [
+          8196,
+          1091
+        ]
+      ]
+    },
+    "152": {
+      "identifier": "r_153",
+      "reading_order": [
+        "152"
+      ],
+      "coordinates_list": [
+        [
+          8205,
+          1955
+        ],
+        [
+          8222,
+          1955
+        ],
+        [
+          8222,
+          2406
+        ],
+        [
+          8205,
+          2406
+        ]
+      ]
+    },
+    "153": {
+      "identifier": "r_154",
+      "reading_order": [
+        "153"
+      ],
+      "coordinates_list": [
+        [
+          8211,
+          1598
+        ],
+        [
+          8220,
+          1598
+        ],
+        [
+          8220,
+          1920
+        ],
+        [
+          8211,
+          1920
+        ]
+      ]
+    },
+    "154": {
+      "identifier": "r_155",
+      "reading_order": [
+        "154"
+      ],
+      "coordinates_list": [
+        [
+          8211,
+          2542
+        ],
+        [
+          8225,
+          2542
+        ],
+        [
+          8225,
+          2984
+        ],
+        [
+          8211,
+          2984
+        ]
+      ]
+    },
+    "155": {
+      "identifier": "r_156",
+      "reading_order": [
+        "155"
+      ],
+      "coordinates_list": [
+        [
+          8218,
+          3201
+        ],
+        [
+          8225,
+          3201
+        ],
+        [
+          8225,
+          3329
+        ],
+        [
+          8218,
+          3329
+        ]
+      ]
+    },
+    "156": {
+      "identifier": "r_157",
+      "reading_order": [
+        "156"
+      ],
+      "coordinates_list": [
+        [
+          2858,
+          1483
+        ],
+        [
+          2923,
+          1483
+        ],
+        [
+          2923,
+          1486
+        ],
+        [
+          2858,
+          1486
+        ]
+      ]
+    },
+    "157": {
+      "identifier": "r_158",
+      "reading_order": [
+        "157"
+      ],
+      "coordinates_list": [
+        [
+          2950,
+          1483
+        ],
+        [
+          2986,
+          1483
+        ],
+        [
+          2986,
+          1485
+        ],
+        [
+          2950,
+          1485
+        ]
+      ]
+    },
+    "158": {
+      "identifier": "r_159",
+      "reading_order": [
+        "158"
+      ],
+      "coordinates_list": [
+        [
+          4126,
+          2576
+        ],
+        [
+          4150,
+          2576
+        ],
+        [
+          4150,
+          2578
+        ],
+        [
+          4126,
+          2578
+        ]
+      ]
+    },
+    "159": {
+      "identifier": "r_160",
+      "reading_order": [
+        "159"
+      ],
+      "coordinates_list": [
+        [
+          4063,
+          3785
+        ],
+        [
+          4135,
+          3785
+        ],
+        [
+          4135,
+          3788
+        ],
+        [
+          4063,
+          3788
+        ]
+      ]
+    },
+    "160": {
+      "identifier": "r_161",
+      "reading_order": [
+        "160"
+      ],
+      "coordinates_list": [
+        [
+          4153,
+          5178
+        ],
+        [
+          4178,
+          5178
+        ],
+        [
+          4178,
+          5181
+        ],
+        [
+          4153,
+          5181
+        ]
+      ]
+    },
+    "161": {
+      "identifier": "r_162",
+      "reading_order": [
+        "161"
+      ],
+      "coordinates_list": [
+        [
+          2967,
+          5241
+        ],
+        [
+          2992,
+          5241
+        ],
+        [
+          2992,
+          5244
+        ],
+        [
+          2967,
+          5244
+        ]
+      ]
+    },
+    "162": {
+      "identifier": "r_163",
+      "reading_order": [
+        "162"
+      ],
+      "coordinates_list": [
+        [
+          4558,
+          5514
+        ],
+        [
+          4596,
+          5514
+        ],
+        [
+          4596,
+          5515
+        ],
+        [
+          4558,
+          5515
+        ]
+      ]
+    },
+    "163": {
+      "identifier": "r_164",
+      "reading_order": [
+        "163"
+      ],
+      "coordinates_list": [
+        [
+          1033,
+          922
+        ],
+        [
+          1044,
+          922
+        ],
+        [
+          1044,
+          1108
+        ],
+        [
+          1033,
+          1108
+        ]
+      ]
+    },
+    "164": {
+      "identifier": "r_165",
+      "reading_order": [
+        "164"
+      ],
+      "coordinates_list": [
+        [
+          1056,
+          3432
+        ],
+        [
+          1061,
+          3432
+        ],
+        [
+          1061,
+          3495
+        ],
+        [
+          1056,
+          3495
+        ]
+      ]
+    },
+    "165": {
+      "identifier": "r_166",
+      "reading_order": [
+        "165"
+      ],
+      "coordinates_list": [
+        [
+          7133,
+          4987
+        ],
+        [
+          7134,
+          4987
+        ],
+        [
+          7134,
+          5040
+        ],
+        [
+          7133,
+          5040
+        ]
+      ]
+    }
+  }
+}
