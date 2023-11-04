@@ -1,5 +1,5 @@
 <template>
-  <h1 style="color: #181818; font-size: 30px">Chat with the Crewman</h1>
+  <h1 style="color: #181818; font-size: 30px">Chat with {{fullName}}</h1>
   <div style="flex: 1">
     <div style="width: 100%; flex-grow: 1; display: flex">
 
@@ -12,7 +12,7 @@
           ref="chatRef"
           :style="{ width: '100%', height: '100%'}"
           :demo="false"
-          :textInput="{ placeholder: { text: 'Welcome to the demo!' } }"
+          :textInput="{ placeholder: { text: 'PLease continue your story!' } }"
           :initialMessages="initialMessages"
           :request="{url: 'http://localhost:5000/chat'}"
           :stream="false"
@@ -34,7 +34,7 @@
 
 <script setup>
 import "deep-chat";
-import {ref, onMounted, nextTick, defineProps} from 'vue';
+import {ref, onMounted, nextTick, defineProps, computed, watch} from 'vue';
 import axios from "axios";
 
 const props = defineProps({
@@ -52,68 +52,36 @@ const loading = ref(true);
 const loadingExtra = ref(false);
 const initialMessages = ref([])
 
-// {url: 'http://localhost:5000/openai-chat-stream'}
 
-const initialInformation = {
-  "person": {
-    "surname": "A. Buijs",
-    "name_first": "Antoon",
-    "father": "Martinus",
-    "mother": "Philomena Pauwels",
-    "birth_place": "Burght /Belgie/",
-    "birth_data": "13 Juni 1877",
-    "place_of_residence": "Burght",
-    "length": "1.57 Meter",
-    "face": "ovaal",
-    "forehead": "gewoon",
-    "eyes": "blauw",
-    "nose": "gewoon",
-    "mouth": "idem",
-    "chin": "rond",
-    "hair": "bruin",
-    "eyebrow": "id",
-    "features_particular": "getu toueerd aan beide ar men en rechterhand"
-  },
-  "events": [
-    {"event_date": "1900-03-11", "description": "d bij o Monsieur le présent"},
-    {"event_date": "1900-03-09", "description": "Van verlof achtergebleven"},
-    {
-      "event_date": "1901-11-21",
-      "description": "Als deserteur afgevoerd. Heeft zich den 24e Juli 1901 vrijwillig aangemeld. Bij vonnis van den krygsraad in het 3e Militaire Arron dissement dd: 14 Augustus 1901, ingegaan den 23e Augustus das vervordeeld tot drie maanden militaire detentie, te zake van eerste desertie in tijd van vrede, door zonder ver lof langer dan twee dager van zijn korps afwe nig te zijn gebleven, zonder de reden zijner afwezigheid te genoegen des rechters te bewijzen, niet t of gevolgd door vrijwillige te rugkeer binnen vier weken weder in de sterkte gebracht, zie N=o 4457"
-    },
-    {
-      "event_date": "1901-11-22",
-      "description": "Vrijwillig geëngageerd als soldaat ('elve tamboer) voor zes jaren bij het leger zooveel in als buiten Europa met ƒ300-premie, waarvan ƒ50- uitbetaald en f 250 - in Rijkspostspaarbank ingelegd is. Ingevolge beschikking van het D v. C. dd 18 November 1901, Afd Pers n:o 10 To oldaat"
-    },
-    {
-      "event_date": "1902-09-30",
-      "description": "Geditacheerd naar Oost-Indië en op dato te Amsterdam overgegaan aan boord 2/4 S.S. Teins Hendrik\""
-    },
-    {"event_date": "1902-10-25", "description": "Overgegaar bij het 1 Bat=on Inf"},
-    {"event_date": "1902-12-01", "description": "Garn. Batn. van Palemburg"},
-    {"event_date": "1903-03-29", "description": "R.H. 15. Bat-m Infin."},
-    {
-      "event_date": "1903-04-23",
-      "description": "4: 12: 18: Bestemd van uiterlijk 2 maanden voor het eindige vier dienst verbintenis naar Nederland te worden opgezoorden"
-    },
-    {
-      "event_date": "1904-07-30",
-      "description": "Is niet genegen zich te zier gogeere, zou des verkeerende tot een zesjarig reengagement zijn toegelaten"
-    },
-    {"event_date": "1904-12-24", "description": "derwaarts vertrokken met het P. Koningin Wilhelmina"},
-    {"event_date": "1906-06-28", "description": "Ontscheept te Amsterdam en op dato terug in de sterkte Jh Corf"}
-  ]
-}
+const fullName = computed(() => {
+  return `${props.person.person.name_first} ${props.person.person.surname}`
+})
+
+
+// {url: 'http://localhost:5000/openai-chat-stream'}
 
 
 onMounted(() => {
   console.log(chatRef)
 
-  fetchInitialMessage()
+  console.log('promps', props.person.person)
+
+
+  fetchInitialMessage(props.person)
 
 })
 
-const fetchInitialMessage = async () => {
+watch(() => props.person.person.surname + props.person.person.name_first, async (newQuestion, oldQuestion) => {
+  if (newQuestion !== oldQuestion) {
+    console.log('new question', newQuestion)
+    await fetchInitialMessage(props.person)
+  }
+})
+
+
+const fetchInitialMessage = async (person) => {
+  loading.value = true;
+
   const response = await fetch('http://localhost:5000/chat', {
     method: 'POST',
     headers: {
@@ -122,7 +90,7 @@ const fetchInitialMessage = async () => {
     body: JSON.stringify({
       messages: [
         {
-          story_page_data: initialInformation
+          story_page_data: person
         }
       ]
     })
@@ -135,7 +103,7 @@ const fetchInitialMessage = async () => {
   messages.value = [
     {
       role: "ai", text: data.text,
-      story_page_data: initialInformation
+      story_page_data: person
     },
   ]
   loading.value = false;
@@ -160,7 +128,7 @@ const extractRelevantImages = async (text) => {
 
 const hookOnChat = () => {
   chatRef.value.requestInterceptor = async (requestDetails) => {
-    requestDetails.body.initial_information = initialInformation
+    requestDetails.body.story_page_data = props.person
 
     messages.value.push({
       role: "user", text: requestDetails.body.messages[0].text
