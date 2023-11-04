@@ -49,16 +49,19 @@ const getPosition = (time) => {
 <style scoped>
 .timeline-container {
   position: relative;
-  margin: 20px;
-  height: 200px;
+  margin: 2px;
+  margin-top: 85px;
+  height: 400px;
+  background-color: #fff;
+  padding-top: 150px;
 }
 
 .timeline-line {
   position: absolute;
   height: 4px;
   width: 100%;
-  background-color: #333;
-  top: 20px; /* Adjust to align with the center of circles */
+  background-color: #ff644e;
+  top: 154px; /* Adjust to align with the center of circles */
 }
 
 .timeline-moment {
@@ -67,10 +70,10 @@ const getPosition = (time) => {
 }
 
 .timeline-circle {
-  width: 40px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background-color: #555;
+  background-color: #4d4d4d;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
