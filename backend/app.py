@@ -62,8 +62,7 @@ def handle_exception(e):
     return {"error": "Internal service error"}, 500
 
 
-MIN_FRAGMENT_LENGTH = 40
-
+MIN_FRAGMENT_LENGTH = 125
 
 def read_parallel_queue(queue: multiprocessing.Queue):
     fragment = ''
@@ -77,6 +76,10 @@ def read_parallel_queue(queue: multiprocessing.Queue):
             print(fragment)
             yield fragment
             fragment = ''
+
+    if fragment:
+        print(fragment)
+        yield fragment
 
 
 @app.route("/chat-stream", methods=["POST"])
