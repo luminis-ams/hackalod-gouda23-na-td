@@ -13,21 +13,19 @@ from backend.story_logic import create_chat_body
 cache = SQLiteCache(database_path=".langchain.db")
 
 
-def chat_stream(body):
+def openai_chat_stream(body):
     messages = create_chat_body(body)
 
-    def generate():
-        for chunk in openai.ChatCompletion.create(
-                model=os.getenv("OPENAI_MODEL"),
-                messages=messages,
-                stream=True,
+    for chunk in openai.ChatCompletion.create(
+            model=os.getenv("OPENAI_MODEL"),
+            messages=messages,
+            stream=True,
 
-        ):
-            content = chunk["choices"][0].get("delta", {}).get("content")
-            if content:
-                yield "data: {}\n\n".format(json.dumps({"text": content}))
+    ):
+        content = chunk["choices"][0].get("delta", {}).get("content")
+        if content:
+            yield content
 
-    return Response(generate(), mimetype="text/event-stream")
 
 
 def openai_chat(body):

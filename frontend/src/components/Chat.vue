@@ -17,11 +17,13 @@
           ref="chatRef"
           :style="{ width: '100%', height: '100%'}"
           :demo="false"
-          :textInput="{ placeholder: { text: 'PLease continue your story!' } }"
+          :textInput="{ placeholder: { text: 'Please continue your story!' } }"
           :initialMessages="initialMessages"
-          :request="{url: 'http://localhost:5000/chat'}"
-          :stream="false"
+          :request="{url: 'http://localhost:5000/chat-stream'}"
+          :stream="true"
+          :webSpeech="true"
       />
+      <button @click="stopAudio">Stop Audio</button>
     </div>
   </div>
   <div style="max-height: 300px; flex: 1; overflow: auto; display: flex">
@@ -70,6 +72,10 @@ const avatar = computed(() => {
 
 
 // {url: 'http://localhost:5000/openai-chat-stream'}
+
+const stopAudio = () => {
+fetch('http://localhost:5000/stop-audio', {method: 'POST'})
+}
 
 
 onMounted(() => {
