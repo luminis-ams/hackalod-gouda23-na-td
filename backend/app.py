@@ -121,6 +121,7 @@ audio_threads: List[multiprocessing.Process] = []
 
 
 @app.route("/stop-audio", methods=["POST"])
+@cross_origin(origins='*')
 def stop_audio():
     global audio_threads
 

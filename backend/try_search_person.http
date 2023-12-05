@@ -1,0 +1,183 @@
+POST http://localhost:5000/search_person
+Content-Type: application/json
+
+{
+  "person_name":"two"
+}
+
+### Try the chat stream
+POST http://localhost:5000/chat-stream
+Content-Type: application/json
+
+{
+  "messages": [
+    {
+      "role": "ai",
+      "text": "Act 1: De Reis naar Oost-Indië\n\nAls jonge avonturier was ik altijd al gefascineerd door verre landen en exotische culturen. Ik kon niet wachten om mijn geboorteland, Duitsland, achter me te laten en een nieuw hoofdstuk te beginnen in Oost-Indië. Het was op 22 mei 1894 dat ik werd gedetacheerd naar Oost-Indië en mijn reis naar het Koloniaal Weofdepot begon.\n\nMet gemengde gevoelens reisde ik naar Amsterdam, waar ik aan boord ging van het majestueuze schip de \"Prins Hendrik\". Het schip was een symbool van avontuur en ontdekking, en ik was vastberaden om alles te ervaren wat het leven in Oost-Indië te bieden had. Op ",
+      "story_page_data": {
+        "events": [
+          {
+            "description": "Gedetacheerd naar Oost-Indië en op dato ter uitzending over gegaan naar het Koloniaal Weofdepot.",
+            "event_date": "1894-05-22",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/c2ed3ac7-2545-4358-aea5-1e2424869604"
+          },
+          {
+            "description": "Geembarkeerd te Amsterdam a/b v/h 28 „ Prins Hendrik.",
+            "event_date": "1900-03-04",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/735a49a4-2654-4145-b345-7254bd8cb647"
+          },
+          {
+            "description": "Gedebarkeerd te Batavia en geplaatst bij het 2e Depot-Bat.",
+            "event_date": "1901-09-27",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/ed742867-cd4e-474a-966f-cd466b906b2b"
+          },
+          {
+            "description": "Overgegaan by het 8e Bataan Inf.",
+            "event_date": "1901-10-07",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/527e3cab-a158-497a-a364-4c9b2da62571"
+          },
+          {
+            "description": "Opzending naar Nederland overgegaan bij het Seels. kinder te Semi.",
+            "event_date": "1901-10-18",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/4a26e3e8-d8d3-43ac-a4b6-5d60ebfb20c6"
+          },
+          {
+            "description": "Wegens tijdelijke lichamelijke ongeschiletheid voor den militairen adieven en Centingdienst, bestemd om naar Nederland te voor den opgezonden: Is geschikt voor bureau en hospitaal dienst, doch niet genegen om bij laatstgenoemden dienst over te gaan ,terwijl hij /niet kan voldoen aan het exam voor soldaat.",
+            "event_date": "1901-11-26",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/9eaa28fa-8d9f-4d01-aa30-7dd4f9112787"
+          },
+          {
+            "description": "Het proposit in Nederl. Indie toegestaan schrijver.",
+            "event_date": "1902-02-07",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/11d456d9-3244-41f5-a047-236021f5df2f"
+          },
+          {
+            "description": "Derwaarts vertrokken met het SS„ Arsjoeno neer hy zich binnen 2 jaren na afvoering uit de sterkte van het Indische leger weder voor den Indischer militairen dienst dat aan te Rotterdam aangekomen en op dato tijdelijk ingedeeld b/d Koloniale Reserva.",
+            "event_date": "1902-07-31",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/a6876282-00da-451f-916d-801ef6fb06c8"
+          },
+          {
+            "description": "Met verbreking van het loopend verband vrywellig geëngageerd als sol geëngageed als so daat voor vier jaren by het leger in Oost of West Indie ingaande met den dag van inscheping met ƒ200.- pr. waarvan f 20.- heden is- en f 30 by overgang naar het K.W.D zal worden uitbetaald terwyl als dan f 150 in's Ryksportspaarbank zal worden ingelegd.",
+            "event_date": "1906-05-10",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/fd75935b-2deb-45d0-b662-7a9b0ad37f22"
+          },
+          {
+            "description": "Gedetacheerd naar Oost-Indie en op dato ter uitzending over gegaan naar het Koloniaal Weofdepot.",
+            "event_date": "1907-02-07",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/6f2150f7-0492-4f7a-8fae-cc76d238cad3"
+          },
+          {
+            "description": "Geembarkeerd te Rotterdam aan boord van het S.S. „ Goentoor.",
+            "event_date": "1907-07-06",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/a0065b29-df0d-45b7-a2fd-f914c72e87ae"
+          },
+          {
+            "description": "Gedeborkeerd te Padang en geplaatst by het 16' Bata. Inf.",
+            "event_date": "1907-07-14",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/df53d873-5cff-410e-a58c-72e1cb6da54b"
+          },
+          {
+            "description": "Vergegaan als soldaat schrijven bij het schippers personeel van de Miletaire ad minestratie en geplaatst by het subs. hader te Padang.",
+            "event_date": "1907-11-06",
+            "image": "https://service.archief.nl/gaf/api/file/v1/original/78d107a2-8e7b-4948-b5e2-b0f15603a94a"
+          }
+        ],
+        "person": {
+          "birth_data": "16 Juli 1876",
+          "birth_place": "Sauer Schwabenheim / Duitschland",
+          "father": "Johann",
+          "features_particular": "",
+          "length": "1.66 Meter",
+          "mother": "Anna, Maria Schmid",
+          "name_first": "Joop",
+          "place_of_residence": "Kostheim [Duitsch",
+          "surname": "Gruber"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "waar kom je vandaan"
+    }
+  ],
+  "story_page_data": {
+    "events": [
+      {
+        "description": "Gedetacheerd naar Oost-Indië en op dato ter uitzending over gegaan naar het Koloniaal Weofdepot.",
+        "event_date": "1894-05-22",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/c2ed3ac7-2545-4358-aea5-1e2424869604"
+      },
+      {
+        "description": "Geembarkeerd te Amsterdam a/b v/h 28 „ Prins Hendrik.",
+        "event_date": "1900-03-04",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/735a49a4-2654-4145-b345-7254bd8cb647"
+      },
+      {
+        "description": "Gedebarkeerd te Batavia en geplaatst bij het 2e Depot-Bat.",
+        "event_date": "1901-09-27",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/ed742867-cd4e-474a-966f-cd466b906b2b"
+      },
+      {
+        "description": "Overgegaan by het 8e Bataan Inf.",
+        "event_date": "1901-10-07",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/527e3cab-a158-497a-a364-4c9b2da62571"
+      },
+      {
+        "description": "Opzending naar Nederland overgegaan bij het Seels. kinder te Semi.",
+        "event_date": "1901-10-18",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/4a26e3e8-d8d3-43ac-a4b6-5d60ebfb20c6"
+      },
+      {
+        "description": "Wegens tijdelijke lichamelijke ongeschiletheid voor den militairen adieven en Centingdienst, bestemd om naar Nederland te voor den opgezonden: Is geschikt voor bureau en hospitaal dienst, doch niet genegen om bij laatstgenoemden dienst over te gaan ,terwijl hij /niet kan voldoen aan het exam voor soldaat.",
+        "event_date": "1901-11-26",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/9eaa28fa-8d9f-4d01-aa30-7dd4f9112787"
+      },
+      {
+        "description": "Het proposit in Nederl. Indie toegestaan schrijver.",
+        "event_date": "1902-02-07",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/11d456d9-3244-41f5-a047-236021f5df2f"
+      },
+      {
+        "description": "Derwaarts vertrokken met het SS„ Arsjoeno neer hy zich binnen 2 jaren na afvoering uit de sterkte van het Indische leger weder voor den Indischer militairen dienst dat aan te Rotterdam aangekomen en op dato tijdelijk ingedeeld b/d Koloniale Reserva.",
+        "event_date": "1902-07-31",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/a6876282-00da-451f-916d-801ef6fb06c8"
+      },
+      {
+        "description": "Met verbreking van het loopend verband vrywellig geëngageerd als sol geëngageed als so daat voor vier jaren by het leger in Oost of West Indie ingaande met den dag van inscheping met ƒ200.- pr. waarvan f 20.- heden is- en f 30 by overgang naar het K.W.D zal worden uitbetaald terwyl als dan f 150 in's Ryksportspaarbank zal worden ingelegd.",
+        "event_date": "1906-05-10",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/fd75935b-2deb-45d0-b662-7a9b0ad37f22"
+      },
+      {
+        "description": "Gedetacheerd naar Oost-Indie en op dato ter uitzending over gegaan naar het Koloniaal Weofdepot.",
+        "event_date": "1907-02-07",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/6f2150f7-0492-4f7a-8fae-cc76d238cad3"
+      },
+      {
+        "description": "Geembarkeerd te Rotterdam aan boord van het S.S. „ Goentoor.",
+        "event_date": "1907-07-06",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/a0065b29-df0d-45b7-a2fd-f914c72e87ae"
+      },
+      {
+        "description": "Gedeborkeerd te Padang en geplaatst by het 16' Bata. Inf.",
+        "event_date": "1907-07-14",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/df53d873-5cff-410e-a58c-72e1cb6da54b"
+      },
+      {
+        "description": "Vergegaan als soldaat schrijven bij het schippers personeel van de Miletaire ad minestratie en geplaatst by het subs. hader te Padang.",
+        "event_date": "1907-11-06",
+        "image": "https://service.archief.nl/gaf/api/file/v1/original/78d107a2-8e7b-4948-b5e2-b0f15603a94a"
+      }
+    ],
+    "person": {
+      "birth_data": "16 Juli 1876",
+      "birth_place": "Sauer Schwabenheim / Duitschland",
+      "father": "Johann",
+      "features_particular": "",
+      "length": "1.66 Meter",
+      "mother": "Anna, Maria Schmid",
+      "name_first": "Joop",
+      "place_of_residence": "Kostheim [Duitsch",
+      "surname": "Gruber"
+    }
+  }
+}
