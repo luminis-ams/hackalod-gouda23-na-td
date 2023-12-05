@@ -82,6 +82,18 @@ def read_parallel_queue(queue: multiprocessing.Queue):
         yield fragment
 
 
+def read_and_play(queue):
+    audio_stream = generate(
+        text=read_parallel_queue(queue),
+        model="eleven_multilingual_v2",
+        stream=True,
+        voice=Voice(
+            voice_id='pNInz6obpgDQGcFmaJgB',
+        )
+    )
+
+    stream(audio_stream)
+
 @app.route("/chat-stream", methods=["POST"])
 @cross_origin(origins='*')
 def chat_stream():
@@ -92,19 +104,7 @@ def chat_stream():
     def generatez():
         queue = multiprocessing.Queue()
 
-        def read_and_play():
-            audio_stream = generate(
-                text=read_parallel_queue(queue),
-                model="eleven_multilingual_v2",
-                stream=True,
-                voice=Voice(
-                    voice_id='pNInz6obpgDQGcFmaJgB',
-                )
-            )
-
-            stream(audio_stream)
-
-        proc = multiprocessing.Process(target=read_and_play, args=())
+        proc = multiprocessing.Process(target=read_and_play, args=(queue,))
         audio_threads.append(proc)
         proc.start()
 
