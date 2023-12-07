@@ -39,7 +39,7 @@ const getPosition = (time) => {
       <!-- Content for the moment -->
       <div class="content">
         <!-- Conditionally display image or text based on the moment's content -->
-        <img v-if="moment.image" :src="moment.image" :alt="moment.description">
+        <img v-if="moment.image" :src="moment.image" :alt="moment.description" :style="{ marginTop: index % 2 === 0 ? '0px' : '-175px'}">
         <span v-else>{{ moment.description }}</span>
       </div>
     </div>
@@ -60,7 +60,7 @@ const getPosition = (time) => {
   height: 4px;
   width: 100%;
   background-color: #ff644e;
-  top: 154px; /* Adjust to align with the center of circles */
+  top: 254px; /* Adjust to align with the center of circles */
 }
 
 .timeline-moment {
@@ -69,7 +69,7 @@ const getPosition = (time) => {
 }
 
 .timeline-circle {
-  top: 152px;
+  top: 252px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -80,7 +80,7 @@ const getPosition = (time) => {
 }
 
 .content {
-  margin-top: 180px;
+  margin-top: 280px;
   text-align: center;
 }
 
